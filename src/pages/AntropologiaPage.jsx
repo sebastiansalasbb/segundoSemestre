@@ -93,7 +93,7 @@ function AntropologiaPage() {
                 <div className="mt-4">
                   <button
                     onClick={handleNextButton}
-                    className="btn btn-outline-light"
+                    className="btn btn-outline-warning"
                   >
                     Siguiente Pregunta
                   </button>
