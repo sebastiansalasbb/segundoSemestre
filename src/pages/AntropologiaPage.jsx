@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import Layout from "../Layout/LayoutContainer";
+import Layout from "../Layout/Layout";
 import { Link, useLoaderData, useNavigate, useParams } from "react-router-dom";
 function AntropologiaPage() {
 

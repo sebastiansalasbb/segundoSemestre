@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import Layout from "./Layout/LayoutContainer";
+import Layout from "./Layout/Layout";
 import DashboardPage from "./pages/DashboardPage";
 
 function App() {
