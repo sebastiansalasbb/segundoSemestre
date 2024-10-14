@@ -7,6 +7,14 @@ import FinalPage from "./pages/FinalPage.jsx";
 import AzureIAPage from "./pages/AzureIAPage.jsx";
 import loaderAzureIA from "./db/loaderAzureIA.js";
 import MenuIAPage from "./pages/MenuIAPage.jsx";
+import AzureCVPage from "./pages/AzureCVPage.jsx";
+import loaderAzureCV from "./db/loaderAzureCV.js";
+import AzureLNPage from "./pages/AzureLNPage.jsx";
+import loaderAzureLN from "./db/loaderAzureLN.js";
+import AzureMineriaPage from "./pages/AzureMineriaPage.jsx";
+import loaderAzureMineria from "./db/loaderAzureMineria.js";
+import AzureIAGPage from "./pages/AzureIAGPage.jsx";
+import loaderAzureIAG from "./db/loaderAzureIAG.js";
 
 const router = createBrowserRouter([
     {
@@ -29,6 +37,30 @@ const router = createBrowserRouter([
         path: "/menu-azure-ia/unidad-1/:nPregunta",
         element: <AzureIAPage />,
         loader: loaderAzureIA,
+        errorElement: <FinalPage />,
+    },
+    {
+        path: "/menu-azure-ia/unidad-2/:nPregunta",
+        element: <AzureCVPage />,
+        loader: loaderAzureCV,
+        errorElement: <FinalPage />,
+    },
+    {
+        path: "/menu-azure-ia/unidad-3/:nPregunta",
+        element: <AzureLNPage />,
+        loader: loaderAzureLN,
+        errorElement: <FinalPage />,
+    },
+    {
+        path: "/menu-azure-ia/unidad-4/:nPregunta",
+        element: <AzureMineriaPage />,
+        loader: loaderAzureMineria,
+        errorElement: <FinalPage />,
+    },
+    {
+        path: "/menu-azure-ia/unidad-5/:nPregunta",
+        element: <AzureIAGPage />,
+        loader: loaderAzureIAG,
         errorElement: <FinalPage />,
     }
 ]);
