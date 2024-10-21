@@ -1,1094 +1,1214 @@
 const antropologiaDB = [
     {
         "id": 1,
-        "pregunta": "¿Qué son las tendencias sensibles?",
+        "pregunta": "Según el texto, ¿cuál es la primera fuente de conocimiento humano?",
         "respuestas": [
-            "Son inclinaciones o apetitos hacia un bien concreto percibido a través de los sentidos.",
-            "Son la capacidad de razonar y reflexionar sobre las decisiones morales.",
-            "Son impulsos irracionales que no pueden ser controlados por la razón."
+            "La razón.",
+            "Los sentidos.",
+            "La reflexión intelectual."
         ],
-        "respuestaCorrecta": 0,
-        "explicacion": "Las tendencias sensibles son inclinaciones naturales del cuerpo hacia lo que percibimos como bueno a través de los sentidos, como el deseo de comer cuando tenemos hambre."
+        "respuestaCorrecta": 1,
+        "explicacion": "Los sentidos son la primera fuente de conocimiento humano, ya que a través de ellos percibimos el mundo que nos rodea."
     },
     {
         "id": 2,
-        "pregunta": "¿Qué ocurre cuando percibimos algo como malo según el texto?",
+        "pregunta": "¿Qué sucede cuando percibimos algo como bueno?",
         "respuestas": [
-            "Nos sentimos indiferentes.",
-            "Tenemos la tendencia a huir de aquello que percibimos como malo.",
-            "Nos atrae de igual forma que lo bueno."
+            "Nos causa indiferencia y no actuamos.",
+            "Ese objeto ejerce una afección y surge un deseo o tendencia por conseguirlo.",
+            "Desarrollamos una tendencia a huir de ello."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "Cuando percibimos algo como malo, surge en nosotros una tendencia a alejarnos de ello, como sucede cuando huimos de un mal olor o de un peligro inminente."
+        "explicacion": "Cuando percibimos algo como bueno, nos afecta y genera en nosotros una tendencia o deseo de obtenerlo."
     },
     {
         "id": 3,
-        "pregunta": "¿De qué manera influyen las pasiones en la conducta humana?",
+        "pregunta": "¿Qué son las tendencias sensibles?",
         "respuestas": [
-            "Nos impulsan a actuar de acuerdo con nuestras tendencias y emociones, como el amor o el miedo.",
-            "Nos impiden actuar de manera racional y nos paralizan.",
-            "Controlan completamente nuestras acciones sin dejar espacio para la razón."
+            "Son inclinaciones o apetitos del cuerpo hacia un bien concreto y particular.",
+            "Son impulsos irracionales que siempre deben ser reprimidos.",
+            "Son procesos exclusivamente intelectuales sin relación con el cuerpo."
         ],
         "respuestaCorrecta": 0,
-        "explicacion": "Las pasiones influyen en la conducta humana al impulsarnos hacia ciertos comportamientos, como acercarnos al amor o alejarnos del miedo."
+        "explicacion": "Las tendencias sensibles son inclinaciones naturales hacia bienes percibidos por los sentidos."
     },
     {
         "id": 4,
-        "pregunta": "¿Cuál es la función de la razón en relación con las pasiones?",
+        "pregunta": "Según el texto, ¿cómo difieren los humanos de los animales en relación con los instintos?",
         "respuestas": [
-            "Someter las pasiones de manera total.",
-            "Reprimir completamente las pasiones para que no influyan en nuestras decisiones.",
-            "Guiar y educar las pasiones, ayudando a que se orienten hacia un bien adecuado."
+            "Los humanos no tienen instintos innatos.",
+            "Los humanos pueden guiar sus instintos mediante la libertad.",
+            "Los animales pueden controlar sus instintos a través de la razón."
         ],
-        "respuestaCorrecta": 2,
-        "explicacion": "La razón no debe reprimir las pasiones, sino guiarlas y educarlas para que trabajen en armonía y se orienten de manera correcta hacia lo que es bueno para nosotros."
+        "respuestaCorrecta": 1,
+        "explicacion": "A diferencia de los animales, los humanos pueden guiar sus instintos mediante la libertad y la razón."
     },
     {
         "id": 5,
-        "pregunta": "¿Por qué es importante educar nuestras pasiones?",
+        "pregunta": "¿Cuál es el origen etimológico de la palabra 'pasión'?",
         "respuestas": [
-            "Para suprimir cualquier emoción que pueda afectarnos.",
-            "Para evitar excesos emocionales y poder reaccionar adecuadamente ante situaciones.",
-            "Para eliminar las emociones negativas de nuestra vida diaria."
+            "Del latín 'passio', que significa acción.",
+            "Del griego 'pathos', que significa padecer o ser afectado por algo.",
+            "Del francés 'passion', que significa emoción fuerte."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "Educar las pasiones es importante para evitar los excesos emocionales, como la ira desmedida, y para aprender a reaccionar de manera adecuada ante las diversas situaciones de la vida."
+        "explicacion": "La palabra 'pasión' proviene del griego 'pathos', que significa padecer o ser afectado por algo."
     },
     {
         "id": 6,
-        "pregunta": "Según el texto, ¿qué es la ira?",
+        "pregunta": "Según el texto, las pasiones son:",
         "respuestas": [
-            "Una emoción moralmente mala en todas las circunstancias.",
-            "Una reacción natural que puede ser buena si se orienta hacia la justicia.",
-            "Una reacción irracional que siempre conduce a la violencia."
+            "Elementos básicos de nuestra naturaleza que acompañan nuestro actuar.",
+            "Estados negativos que deben ser eliminados.",
+            "Procesos racionales que controlan nuestras decisiones."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "La ira es una reacción natural ante algo percibido como injusto, y no es mala en sí misma. Puede ser positiva si se orienta correctamente hacia la justicia."
+        "respuestaCorrecta": 0,
+        "explicacion": "Las pasiones son elementos básicos de nuestra naturaleza que influyen en nuestras acciones."
     },
     {
         "id": 7,
-        "pregunta": "¿Qué pasa si exaltamos solo el uso de la razón sin tener en cuenta las emociones?",
+        "pregunta": "¿Por qué es importante educar nuestras pasiones?",
         "respuestas": [
-            "Nos volvemos más equilibrados emocionalmente.",
-            "Caemos en el racionalismo, que es un uso excesivo de la razón sin tener en cuenta las emociones.",
-            "Nos volvemos más sensibles a nuestras emociones."
+            "Para eliminar todas las emociones negativas.",
+            "Para llevar una vida más equilibrada y reaccionar adecuadamente.",
+            "Para suprimir cualquier tipo de sentimiento."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "Si solo exaltamos la razón, caemos en el racionalismo, que implica ignorar las emociones, lo que puede llevarnos a una vida desequilibrada."
+        "explicacion": "Educar las pasiones nos permite llevar una vida más equilibrada y manejar mejor nuestras reacciones."
     },
     {
         "id": 8,
-        "pregunta": "¿Qué sucede si dejamos que nuestras pasiones controlen nuestras acciones sin la intervención de la razón?",
+        "pregunta": "Según el texto, las pasiones en sí mismas son:",
         "respuestas": [
-            "Logramos un equilibrio perfecto en la vida.",
-            "Caemos en el sentimentalismo y nos dejamos llevar por los impulsos.",
-            "Tomamos decisiones más racionales y adecuadas."
+            "Siempre buenas.",
+            "Ni buenas ni malas en sí mismas; su valor depende de cómo las orientamos.",
+            "Siempre malas y deben ser controladas."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "Si permitimos que las pasiones controlen nuestras acciones sin la guía de la razón, caemos en el sentimentalismo, lo que puede llevar a comportamientos desordenados."
+        "explicacion": "Las pasiones no son ni buenas ni malas en sí mismas; su valor moral depende de cómo las guiamos."
     },
     {
         "id": 9,
-        "pregunta": "¿Qué papel juega la tristeza en la vida según el texto?",
+        "pregunta": "¿Qué sucede si exaltamos solo el uso de la razón, según el texto?",
         "respuestas": [
-            "Es una emoción negativa que debe ser eliminada.",
-            "Es una emoción natural y necesaria que puede ayudarnos a reflexionar sobre nuestras pérdidas.",
-            "Es una reacción innecesaria que solo conduce a la depresión."
+            "Alcanzamos un equilibrio perfecto.",
+            "Podemos caer en un racionalismo que ignora las emociones.",
+            "Logramos controlar completamente nuestras pasiones."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "La tristeza es una emoción natural que surge ante la pérdida, y es necesaria para reflexionar sobre esa pérdida. Sin embargo, es importante superarla con el tiempo para evitar consecuencias negativas."
+        "explicacion": "Exaltar solo la razón puede llevarnos a un racionalismo que no considera la importancia de las emociones."
     },
     {
         "id": 10,
-        "pregunta": "¿Cómo se puede alcanzar una vida plena según el texto?",
+        "pregunta": "¿Cómo podemos lograr una armonía entre la vida emocional y la vida racional?",
         "respuestas": [
-            "Reprimiendo las pasiones y usando solo la razón.",
-            "Encontrando una armonía entre la vida emocional y la racional, educando nuestras pasiones.",
-            "Dejando que las pasiones tomen control de nuestras decisiones para vivir intensamente."
+            "Reprimiendo todas nuestras emociones.",
+            "Reconociendo y guiando nuestras pasiones mediante buenos hábitos.",
+            "Ignorando la razón y siguiendo solo nuestros sentimientos."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "Una vida plena se logra cuando existe una armonía entre la vida emocional y la racional, y cuando nuestras pasiones son educadas y guiadas por la razón."
+        "explicacion": "Al adquirir hábitos buenos, las pasiones se integran con la racionalidad, logrando armonía entre ambas."
     },
     {
         "id": 11,
-        "pregunta": "¿Qué significa el término 'pathos' del que deriva la palabra pasión?",
+        "pregunta": "Según el texto, la educación de los sentimientos consiste en:",
         "respuestas": [
-            "Significa acción racional.",
-            "Significa padecer o ser afectado por algo.",
-            "Significa control de las emociones."
+            "Aprender a asumir los dolores y evitar los excesos de pasiones desordenadas.",
+            "Eliminar cualquier sentimiento de dolor o tristeza.",
+            "Fomentar únicamente las emociones positivas."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "El término 'pathos' proviene del griego y significa 'padecer' o 'ser afectado', lo que refleja cómo las pasiones nos afectan y nos inclinan hacia ciertas conductas."
+        "respuestaCorrecta": 0,
+        "explicacion": "La educación de los sentimientos implica aprender de los dolores y evitar excesos emocionales."
     },
     {
         "id": 12,
-        "pregunta": "¿Qué función tienen las pasiones en la vida cotidiana según el texto?",
+        "pregunta": "¿Por qué no es recomendable reprimir las pasiones, según el texto?",
         "respuestas": [
-            "Enriquecen nuestras experiencias y guían nuestra conducta.",
-            "Son un obstáculo para la toma de decisiones racionales.",
-            "Son completamente irracionales y deben ser reprimidas."
+            "Porque las pasiones desaparecerán por sí solas.",
+            "Porque reprimirlas puede llevar al fracaso y perdemos la riqueza de nuestras experiencias.",
+            "Porque las pasiones son más fuertes que la razón y no pueden ser controladas."
         ],
-        "respuestaCorrecta": 0,
-        "explicacion": "Las pasiones enriquecen la vida cotidiana al influir en nuestras acciones y emociones, impulsándonos a actuar según lo que sentimos en cada situación."
+        "respuestaCorrecta": 1,
+        "explicacion": "Reprimir las pasiones nos priva de experiencias enriquecedoras y puede conducir al fracaso personal."
     },
     {
         "id": 13,
-        "pregunta": "¿Cuál es el papel de la afectividad en el ser humano?",
+        "pregunta": "¿Qué papel juega el autoconocimiento en la educación de las pasiones?",
         "respuestas": [
-            "Es la capacidad de sentir y emocionarse, influyendo en nuestra toma de decisiones.",
-            "Es la tendencia a evitar cualquier tipo de emoción para pensar de manera más clara.",
-            "Es un estado racional que surge de una intensa reflexión filosófica."
+            "No es relevante para controlar las pasiones.",
+            "Es esencial para identificar nuestras debilidades y fortalezas y desarrollar plenamente nuestra naturaleza.",
+            "Solo es importante en la infancia."
         ],
-        "respuestaCorrecta": 0,
-        "explicacion": "La afectividad es la capacidad humana de sentir y emocionarse, lo que nos permite conectar con nuestras pasiones y emociones, influyendo en nuestras decisiones y relaciones."
+        "respuestaCorrecta": 1,
+        "explicacion": "El autoconocimiento nos ayuda a entendernos mejor y a guiar nuestras pasiones de forma adecuada."
     },
     {
         "id": 14,
-        "pregunta": "¿Qué sucede si no educamos adecuadamente nuestras pasiones?",
+        "pregunta": "Según el texto, ¿qué sucede si un individuo no educa sus pasiones?",
         "respuestas": [
-            "Nos volvemos más racionales.",
-            "Podemos caer en desórdenes emocionales y perder nuestra libertad.",
-            "Las pasiones desaparecen con el tiempo."
+            "Vive en completa armonía.",
+            "Puede volcar su vida hacia placeres desordenados y perder su libertad.",
+            "Desarrolla una mayor capacidad racional."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "Si no educamos nuestras pasiones, podemos caer en el desorden emocional, donde las pasiones descontroladas nos pueden llevar a actuar de manera impulsiva, comprometiendo nuestra libertad."
+        "explicacion": "Sin educación de las pasiones, la persona puede convertirse en esclava de sus deseos desordenados."
     },
     {
         "id": 15,
-        "pregunta": "¿Cuál es el objetivo de la educación de los sentimientos y las pasiones?",
+        "pregunta": "¿Cuál es el objetivo de la educación de la afectividad según el texto?",
         "respuestas": [
-            "Eliminarlas completamente para alcanzar una vida racional.",
-            "Dirigirlas adecuadamente hacia lo que es verdaderamente bueno.",
-            "Reprimirlas para que no influyan en nuestras decisiones."
+            "Reprimir todas las emociones para evitar el sufrimiento.",
+            "Lograr una vida llena de tonalidades armoniosas, dirigiendo los sentimientos hacia objetos adecuados.",
+            "Eliminar las pasiones negativas y solo experimentar las positivas."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "El objetivo de la educación de los sentimientos y pasiones es guiarlas de forma adecuada hacia objetos que realmente nos beneficien, evitando desórdenes y excesos emocionales."
+        "explicacion": "El objetivo es dirigir los sentimientos adecuadamente para vivir en armonía emocional y racional."
     },
     {
         "id": 16,
-        "pregunta": "Según el texto, ¿cómo podemos aprender a manejar las emociones intensas como la ira?",
+        "pregunta": "¿Cómo describe el texto la relación entre cuerpo y alma?",
         "respuestas": [
-            "Suprimiendo completamente las emociones negativas.",
-            "Reflexionando sobre los hechos con objetividad y distancia antes de actuar.",
-            "Dejando que la ira se exprese completamente para liberar tensión."
+            "Como dos dimensiones separadas sin influencia mutua.",
+            "Como una íntima unidad que debe armonizarse para una vida plena.",
+            "El alma es superior y debe dominar al cuerpo."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "Manejar las emociones intensas como la ira implica reflexionar sobre la situación con objetividad y tomar distancia, para no dejarnos llevar por reacciones impulsivas y perjudiciales."
+        "explicacion": "El texto señala la íntima unidad entre cuerpo y alma y la necesidad de armonizarlas."
     },
     {
         "id": 17,
-        "pregunta": "¿Qué papel juega la libertad en relación con las pasiones según el texto?",
+        "pregunta": "Según el texto, ¿qué papel tienen los adultos en la educación emocional de los niños?",
         "respuestas": [
-            "La libertad consiste en dejarse llevar por las pasiones sin restricciones.",
-            "La libertad implica orientar las pasiones de forma ordenada, evitando ser esclavos de ellas.",
-            "La libertad solo se alcanza cuando eliminamos las pasiones de nuestra vida."
+            "Deben reprimir las emociones de los niños para evitar berrinches.",
+            "Deben contener y educar a los niños, ayudándoles a identificar y entender sus sentimientos.",
+            "No tienen un papel importante; los niños aprenden por sí mismos."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "La libertad, según el texto, consiste en educar y guiar nuestras pasiones de manera que no nos controlen, evitando convertirnos en esclavos de nuestros deseos desordenados."
+        "explicacion": "Los adultos deben ayudar a los niños a identificar y gestionar sus emociones adecuadamente."
     },
     {
         "id": 18,
-        "pregunta": "¿Qué ocurre si dejamos que la tristeza se prolongue indefinidamente?",
+        "pregunta": "¿Qué se logra al comprender y educar continuamente nuestras pasiones, según el texto?",
         "respuestas": [
-            "Se convierte en una experiencia positiva que fortalece el carácter.",
-            "Nos puede llevar a un estado de soledad y depresión.",
-            "La tristeza desaparece por sí sola con el tiempo."
+            "Un desarrollo más pleno de nuestra naturaleza y un buen ejercicio de nuestra libertad.",
+            "La eliminación total de emociones negativas.",
+            "El control absoluto sobre los demás."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "Si no gestionamos adecuadamente la tristeza y la dejamos prolongarse, puede derivar en un estado depresivo que nos aísla y nos afecta profundamente."
+        "respuestaCorrecta": 0,
+        "explicacion": "Comprender y educar nuestras pasiones nos permite desarrollarnos plenamente y ejercer nuestra libertad."
     },
     {
         "id": 19,
-        "pregunta": "¿Por qué no debemos reprimir nuestras pasiones según el texto?",
+        "pregunta": "¿Cuál es el riesgo de enaltecer únicamente las pasiones, según el texto?",
         "respuestas": [
-            "Porque reprimirlas genera más ansiedad.",
-            "Porque las pasiones son esenciales para vivir en armonía con nuestras emociones.",
-            "Porque las pasiones no tienen un impacto real en nuestra vida."
+            "Nos convertimos en seres totalmente racionales.",
+            "Podemos caer en un sentimentalismo que afecta nuestra capacidad de razonamiento.",
+            "Mejoramos nuestra toma de decisiones."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "No debemos reprimir las pasiones porque son una parte esencial de la vida emocional humana. Lo que se busca es guiarlas de manera adecuada, no eliminarlas."
+        "explicacion": "Enaltecer solo las pasiones nos lleva al sentimentalismo, desequilibrando la armonía con la razón."
     },
     {
         "id": 20,
-        "pregunta": "¿Qué nos ayuda a mejorar las relaciones laborales y afectivas según el texto?",
+        "pregunta": "Según el texto, ¿cómo pueden las pasiones afectar nuestra libertad?",
         "respuestas": [
-            "El manejo adecuado de nuestras emociones y la guía racional de nuestras pasiones.",
-            "Reprimir las emociones para actuar de manera objetiva en todo momento.",
-            "Evitar las emociones negativas en entornos profesionales y personales."
+            "Al educarlas, aumentamos nuestra libertad.",
+            "Las pasiones no tienen relación con la libertad.",
+            "Nos hacen esclavos de nuestros propios deseos desordenados si no las guiamos."
         ],
-        "respuestaCorrecta": 0,
-        "explicacion": "El manejo adecuado de las emociones y la guía racional de nuestras pasiones nos ayuda a tener relaciones más sanas tanto en el trabajo como en el ámbito afectivo."
+        "respuestaCorrecta": 2,
+        "explicacion": "Si no guiamos nuestras pasiones, pueden limitarnos y convertirnos en esclavos de nuestros deseos."
     },
     {
         "id": 21,
-        "pregunta": "¿Cómo se relacionan el cuerpo y el alma en el ser humano según el texto?",
+        "pregunta": "Según el texto, ¿qué es la libertad?",
         "respuestas": [
-            "Son dos entidades separadas que no influyen una en la otra.",
-            "Forman una unidad en la que ambas dimensiones se influyen mutuamente.",
-            "El cuerpo es más importante que el alma, ya que es lo que nos permite interactuar con el mundo."
+            "Es la capacidad de actuar espontáneamente sin pensar en las consecuencias.",
+            "Es la ausencia total de limitaciones y responsabilidades.",
+            "Es una facultad que nos permite actuar y escoger según nuestra voluntad."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "El texto sostiene que el ser humano es una unidad de cuerpo y alma, donde ambas dimensiones están interconectadas e influyen mutuamente en todas nuestras acciones."
+        "respuestaCorrecta": 2,
+        "explicacion": "La libertad es una facultad esencial que nos permite actuar y escoger según nuestra voluntad, autodeterminándonos."
     },
     {
         "id": 22,
-        "pregunta": "¿Por qué es importante superar la tristeza con el tiempo?",
+        "pregunta": "¿Qué significa autodeterminación según el texto?",
         "respuestas": [
-            "Porque sentir tristeza es un error.",
-            "Porque perpetuar la tristeza puede llevar a un estado depresivo.",
-            "Porque es necesario eliminar todas las emociones negativas de nuestra vida."
+            "La capacidad de actuar según los instintos y deseos inmediatos.",
+            "La capacidad de elegir qué tipo de persona deseamos ser, forjando nuestro propio modo de ser.",
+            "La posibilidad de renunciar a toda responsabilidad."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "El texto explica que aunque la tristeza es una emoción natural ante una pérdida, prolongarla indefinidamente puede llevarnos a un estado depresivo, por lo que es importante gestionarla adecuadamente."
+        "explicacion": "La autodeterminación es la capacidad de elegir qué tipo de persona queremos ser, forjando nuestro propio modo de ser con nuestras decisiones."
     },
     {
         "id": 23,
-        "pregunta": "¿Qué caracteriza a una vida equilibrada según el texto?",
+        "pregunta": "Según el texto, ¿cómo se relacionan la libertad y la responsabilidad?",
         "respuestas": [
-            "La represión de todas las pasiones para dejar que solo la razón nos guíe.",
-            "La integración armoniosa de las pasiones con la razón para tomar decisiones adecuadas.",
-            "El seguimiento constante de nuestros deseos sin tener en cuenta la razón."
+            "La libertad y la responsabilidad son inseparables; todo acto libre es imputable.",
+            "Son independientes; la libertad no implica responsabilidad.",
+            "La responsabilidad limita nuestra libertad y debe ser evitada."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "Una vida equilibrada, según el texto, se logra al integrar las pasiones y la razón de manera armoniosa, permitiendo que ambas guíen nuestras acciones de forma adecuada."
+        "respuestaCorrecta": 0,
+        "explicacion": "La libertad y la responsabilidad son inseparables, ya que debemos hacernos cargo de las consecuencias de nuestros actos libres."
     },
     {
         "id": 24,
-        "pregunta": "¿Cómo afectan las pasiones desordenadas a nuestra libertad?",
+        "pregunta": "Según el texto, ¿por qué no podemos juzgar moralmente los actos de un bebé?",
         "respuestas": [
-            "Nos hacen más libres al permitirnos actuar según nuestros deseos.",
-            "Nos convierten en esclavos de nuestros propios impulsos y deseos.",
-            "No tienen ningún efecto sobre nuestra libertad."
+            "Porque los bebés siempre actúan con mala intención.",
+            "Porque los bebés no realizan acciones que afecten a los demás.",
+            "Porque los bebés no tienen plena conciencia de sus actos y no actúan por deliberación."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "Las pasiones desordenadas pueden hacer que perdamos el control sobre nuestras acciones, volviéndonos esclavos de nuestros impulsos y deseos, lo que afecta nuestra libertad."
+        "respuestaCorrecta": 2,
+        "explicacion": "Los bebés no tienen plena conciencia ni capacidad de deliberación, por lo que no son moralmente responsables de sus actos."
     },
     {
         "id": 25,
-        "pregunta": "¿Cómo influyen los instintos en los seres humanos según el texto?",
+        "pregunta": "¿Qué implica la renuncia en el ejercicio de la libertad?",
         "respuestas": [
-            "Son iguales a los de los animales y no pueden ser controlados.",
-            "Son tendencias naturales que podemos guiar mediante nuestra libertad y razón.",
-            "Son innecesarios para la supervivencia y no afectan nuestra conducta."
+            "Que podemos elegir todo lo que queramos sin limitaciones.",
+            "Que cada decisión implica dejar de lado otras opciones y comprometerse con lo elegido.",
+            "Que debemos evitar tomar decisiones para no renunciar a nada."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "Aunque los seres humanos tienen instintos como los animales, podemos controlarlos y guiarlos con nuestra libertad y razón, como se ejemplifica con el bombero que enfrenta el peligro."
+        "explicacion": "Renunciar implica que al elegir algo, dejamos de lado otras opciones y nos comprometemos con lo elegido."
     },
     {
         "id": 26,
-        "pregunta": "¿Qué rol juegan las emociones en nuestra toma de decisiones, según el texto?",
+        "pregunta": "Según el texto, ¿por qué la libertad humana no es absoluta ni ilimitada?",
         "respuestas": [
-            "Nos paralizan y nos impiden tomar decisiones correctas.",
-            "Enriquecen nuestras decisiones, pero deben estar guiadas por la razón.",
-            "No juegan ningún rol y solo la razón debe guiar nuestras acciones."
+            "Porque existen limitaciones físicas y sociales, y elementos dados en nuestra naturaleza.",
+            "Porque los demás controlan nuestras decisiones.",
+            "Porque carecemos de voluntad propia."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "Las emociones enriquecen nuestras decisiones, pero deben ser orientadas por la razón para asegurar que tomemos decisiones correctas y equilibradas."
+        "respuestaCorrecta": 0,
+        "explicacion": "La libertad humana es situada, tiene límites dados por nuestra naturaleza y por las circunstancias físicas y sociales."
     },
     {
         "id": 27,
-        "pregunta": "¿Qué pasa si dejamos que nuestras emociones nos dominen en una discusión con una persona querida?",
+        "pregunta": "¿Qué significa que la libertad es una libertad situada?",
         "respuestas": [
-            "Es probable que dañemos la relación al dejarnos llevar por impulsos como la ira.",
-            "La discusión se resolverá más rápidamente.",
-            "No afecta en absoluto a la relación."
+            "Que podemos elegir todo sin importar las circunstancias.",
+            "Que la libertad es una fantasía inalcanzable.",
+            "Que ejercemos nuestra libertad dentro del marco de nuestra situación histórica, real y concreta."
         ],
-        "respuestaCorrecta": 0,
-        "explicacion": "Si nos dejamos dominar por nuestras emociones, como la ira, en una discusión, podemos decir cosas de las que después nos arrepentimos, dañando nuestras relaciones personales."
+        "respuestaCorrecta": 2,
+        "explicacion": "La libertad es situada porque la ejercemos dentro de nuestras circunstancias reales, históricas y concretas."
     },
     {
         "id": 28,
-        "pregunta": "¿Cómo podemos adquirir el control sobre nuestras pasiones?",
+        "pregunta": "Según el texto, ¿cuál es el error al confundir libertad con espontaneidad?",
         "respuestas": [
-            "Reprimiéndolas completamente.",
-            "Desarrollando hábitos buenos que las integren armoniosamente con la razón.",
-            "Ignorando las emociones y centrándonos solo en la razón."
+            "Pensar que todos los actos espontáneos son libres y responsables.",
+            "Creer que la libertad implica siempre acciones instintivas sin reflexión.",
+            "Asumir que la libertad es solo para sujetos racionales."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "Desarrollar buenos hábitos nos ayuda a controlar y guiar nuestras pasiones de manera que estén en armonía con nuestra razón, lo que facilita una vida más equilibrada y plena."
+        "explicacion": "Es un error confundir libertad con espontaneidad, ya que la libertad implica reflexión y deliberación, no solo acciones instintivas."
     },
     {
         "id": 29,
-        "pregunta": "¿Qué diferencia al ser humano de los animales en cuanto a los instintos?",
+        "pregunta": "¿Cuál es el fin último al que se dirige la verdadera libertad según el texto?",
         "respuestas": [
-            "Los seres humanos no tienen instintos.",
-            "Los seres humanos pueden guiar sus instintos con la libertad y la razón.",
-            "Los seres humanos están más dominados por sus instintos que los animales."
+            "La búsqueda del poder y el éxito personal.",
+            "La felicidad y el perfeccionamiento de nuestra naturaleza humana.",
+            "La ausencia total de restricciones morales."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "A diferencia de los animales, los seres humanos pueden controlar y guiar sus instintos a través de la razón y la libertad, lo que les permite actuar de manera más consciente y ética."
+        "explicacion": "La verdadera libertad se perfecciona al dirigirnos hacia nuestro fin último, la felicidad y el perfeccionamiento humano."
     },
     {
         "id": 30,
-        "pregunta": "¿Por qué es importante reflexionar antes de actuar cuando estamos enojados?",
+        "pregunta": "¿Cómo se manifiesta la responsabilidad en nuestros actos libres?",
         "respuestas": [
-            "Para suprimir el enojo por completo.",
-            "Para actuar con objetividad y evitar consecuencias negativas.",
-            "Para dejar que nuestras emociones controlen la situación."
+            "Debemos responder ante los demás y nuestra conciencia por las consecuencias de nuestros actos.",
+            "No necesitamos justificar nuestras acciones a nadie.",
+            "Solo somos responsables si alguien nos observa."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "Reflexionar antes de actuar nos permite mantener la objetividad y evitar que el enojo nos lleve a decir o hacer cosas de las que luego nos arrepentiríamos."
+        "respuestaCorrecta": 0,
+        "explicacion": "La responsabilidad implica dar cuenta de nuestras acciones ante los demás y ante nuestra propia conciencia."
     },
     {
         "id": 31,
-        "pregunta": "¿Qué es la libertad según el texto?",
+        "pregunta": "Según el texto, ¿qué sucede cuando elegimos el mal?",
         "respuestas": [
-            "Es la capacidad de elegir entre el bien y el mal, autodeterminándonos según nuestra voluntad.",
-            "Es la capacidad de actuar instintivamente sin ninguna reflexión racional.",
-            "Es una facultad exclusiva de los animales."
+            "Perfeccionamos nuestra libertad.",
+            "Es un fallo de la libertad que nos aleja de nuestro fin último.",
+            "No tiene ninguna repercusión en nuestra naturaleza."
         ],
-        "respuestaCorrecta": 0,
-        "explicacion": "La libertad, según el texto, es la capacidad de autodeterminarnos y elegir entre el bien y el mal, guiados por la voluntad y la razón."
+        "respuestaCorrecta": 1,
+        "explicacion": "Elegir el mal es un fallo de la libertad que nos aleja de nuestro fin último y del perfeccionamiento de nuestra naturaleza humana."
     },
     {
         "id": 32,
-        "pregunta": "¿Cómo se relacionan la libertad y la voluntad?",
+        "pregunta": "¿Cómo se relacionan libertad y compromiso según el texto?",
         "respuestas": [
-            "La voluntad guía la libertad al elegir entre diversas opciones, lo que nos permite actuar libremente.",
-            "La voluntad y la libertad son dos aspectos que no tienen ninguna relación entre sí.",
-            "La libertad anula la voluntad al tomar decisiones de manera espontánea."
+            "El compromiso limita la libertad y debe evitarse.",
+            "Libertad y compromiso no se oponen; a través del compromiso manifestamos nuestra plena libertad.",
+            "Solo somos libres cuando evitamos compromisos."
         ],
-        "respuestaCorrecta": 0,
-        "explicacion": "La voluntad y la libertad están interconectadas. La voluntad nos permite elegir libremente después de deliberar sobre las opciones conocidas por la inteligencia."
+        "respuestaCorrecta": 1,
+        "explicacion": "Libertad y compromiso no se oponen; al comprometernos, manifestamos nuestra plena libertad, inteligencia y amor."
     },
     {
         "id": 33,
-        "pregunta": "¿Qué papel juega la razón en la libertad humana?",
+        "pregunta": "¿Qué demuestra la renuncia al elegir estar en pareja, según el texto?",
         "respuestas": [
-            "Nos ayuda a identificar el bien y el mal, guiando nuestras decisiones hacia el verdadero bien.",
-            "Nos hace actuar instintivamente sin reflexión.",
-            "Es irrelevante en nuestras decisiones, ya que la libertad depende exclusivamente de los impulsos emocionales."
+            "Demuestra falta de libertad y autonomía.",
+            "Demuestra amor por la persona elegida y permite generar vínculos estables.",
+            "Implica evitar cualquier tipo de compromiso."
         ],
-        "respuestaCorrecta": 0,
-        "explicacion": "La razón es clave en la libertad humana, ya que nos ayuda a identificar lo que es bueno y nos guía a tomar decisiones racionales que nos acercan al bien."
+        "respuestaCorrecta": 1,
+        "explicacion": "Renunciar a otras opciones al elegir estar en pareja demuestra amor y permite establecer vínculos estables."
     },
     {
         "id": 34,
-        "pregunta": "¿Qué implica la autodeterminación en la libertad humana?",
+        "pregunta": "Según el texto, ¿por qué es importante distinguir entre un bien aparente y un bien real?",
         "respuestas": [
-            "La capacidad de actuar sin pensar en las consecuencias.",
-            "La capacidad de elegir nuestras acciones y, al hacerlo, forjar nuestro propio modo de ser.",
-            "La capacidad de actuar únicamente en función de las emociones."
+            "Porque ambos siempre conducen al mismo resultado.",
+            "Porque al elegir un bien aparente podemos autodeterminarnos negativamente.",
+            "Porque los bienes aparentes son siempre mejores que los reales."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "La autodeterminación implica que, al elegir una acción, también nos estamos formando a nosotros mismos, moldeando nuestro carácter según las decisiones que tomamos."
+        "explicacion": "Es importante distinguir entre bien aparente y real, ya que elegir un bien aparente puede afectar negativamente nuestro ser."
     },
     {
         "id": 35,
-        "pregunta": "¿Cómo se relacionan libertad y responsabilidad según el texto?",
+        "pregunta": "¿Qué papel juegan nuestras facultades superiores en los actos libres?",
         "respuestas": [
-            "La libertad no tiene ninguna relación con la responsabilidad.",
-            "La libertad humana siempre implica responsabilidad por nuestras acciones, ya que estas son fruto de nuestra voluntad racional.",
-            "La libertad es contraria a la responsabilidad, ya que actuar libremente significa no tener que rendir cuentas."
+            "No tienen influencia; los actos libres son puramente instintivos.",
+            "Son fundamentales; la voluntad elige lo que ha sido conocido por la inteligencia.",
+            "Solo intervienen en decisiones triviales."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "La libertad humana implica responsabilidad, ya que somos responsables de los actos que realizamos con nuestra voluntad y conciencia, dado que son actos libres y deliberados."
+        "explicacion": "En los actos libres, nuestras facultades superiores son fundamentales; la voluntad elige lo que la inteligencia conoce."
     },
     {
         "id": 36,
-        "pregunta": "¿Por qué se dice que los animales no son responsables de sus acciones?",
+        "pregunta": "Según el texto, ¿por qué solo los sujetos racionales pueden ser libres?",
         "respuestas": [
-            "Porque los animales carecen de razón y voluntad, por lo tanto, no realizan actos deliberados.",
-            "Porque los animales no pueden hacer daño a los seres humanos.",
-            "Porque los animales siempre actúan correctamente."
+            "Porque pueden actuar instintivamente sin consecuencias.",
+            "Porque pueden actuar en conformidad con los dictámenes de la razón.",
+            "Porque no tienen limitaciones en sus decisiones."
         ],
-        "respuestaCorrecta": 0,
-        "explicacion": "Los animales no son responsables de sus acciones porque actúan por instinto, sin la capacidad de razonar o deliberar como los seres humanos."
+        "respuestaCorrecta": 1,
+        "explicacion": "Solo los sujetos racionales pueden ser libres porque pueden actuar según los dictámenes de la razón."
     },
     {
         "id": 37,
-        "pregunta": "¿Qué significa que la libertad implique renuncia?",
+        "pregunta": "¿Qué implica la afirmación 'todo acto libre es imputable'?",
         "respuestas": [
-            "Que debemos evitar tomar decisiones importantes.",
-            "Que al elegir una opción, renunciamos a todas las demás posibilidades.",
-            "Que debemos renunciar a la razón para actuar con libertad."
+            "Que podemos atribuir responsabilidad a alguien por sus actos libres.",
+            "Que los actos libres no tienen consecuencias.",
+            "Que solo los actos instintivos son importantes."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "Cada decisión que tomamos implica renunciar a otras posibilidades, lo que es una parte esencial del ejercicio de la libertad."
+        "respuestaCorrecta": 0,
+        "explicacion": "Si un acto es libre, se puede atribuir responsabilidad a quien lo realiza; es imputable."
     },
     {
         "id": 38,
-        "pregunta": "¿Cómo se manifiesta el compromiso dentro del ejercicio de la libertad?",
+        "pregunta": "¿Por qué una libertad total e ilimitada es inhumana e irreal según el texto?",
         "respuestas": [
-            "El compromiso es una limitación a la libertad.",
-            "El compromiso es una expresión de nuestra plena libertad, ya que implica elegir con responsabilidad y vincularnos con los demás.",
-            "El compromiso implica siempre renunciar a nuestra libertad."
+            "Porque no existe tal cosa; estamos siempre enmarcados en limitaciones naturales y sociales.",
+            "Porque los humanos pueden hacer cualquier cosa sin consecuencias.",
+            "Porque la libertad total es un derecho inalienable."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "El compromiso es una manifestación de la libertad, ya que decidimos conscientemente vincularnos y actuar con responsabilidad hacia lo que hemos elegido."
+        "respuestaCorrecta": 0,
+        "explicacion": "Una libertad total e ilimitada es inhumana e irreal porque siempre existen limitaciones que enmarcan nuestro ejercicio de libertad."
     },
     {
         "id": 39,
-        "pregunta": "¿Por qué se dice que la libertad humana no es ilimitada?",
+        "pregunta": "¿Qué nos permite comprender plenamente qué es la libertad, según el texto?",
         "respuestas": [
-            "Porque existen limitaciones físicas, sociales y naturales que enmarcan nuestras decisiones.",
-            "Porque solo podemos tomar decisiones impulsivas.",
-            "Porque la libertad humana es controlada por las emociones y no por la razón."
+            "Guiar nuestros actos hacia el verdadero bien.",
+            "Evitar cualquier tipo de compromiso o responsabilidad.",
+            "Hacer lo que queramos sin pensar en las consecuencias."
         ],
         "respuestaCorrecta": 0,
-        "explicacion": "La libertad humana está situada, es decir, se ejercita dentro de un marco de limitaciones físicas, sociales y naturales que condicionan nuestras elecciones."
+        "explicacion": "Comprender qué es la libertad nos permite orientar nuestros actos hacia el verdadero bien."
     },
     {
         "id": 40,
-        "pregunta": "¿Qué papel juega la conciencia en nuestras decisiones libres?",
+        "pregunta": "Según la cita de Viktor Frankl : '¿Qué es, en realidad, el ser humano? Es el ser que siempre decide lo que es. Es el ser que ha inventado las cámaras de gas, pero asimismo es el ser que ha entrado en ellas con paso firme murmurando una oración', ¿qué demuestra acerca del ser humano?",
         "respuestas": [
-            "Es irrelevante, ya que la conciencia no afecta nuestras acciones.",
-            "Nos hace reflexionar sobre nuestras decisiones y nos cuestiona sobre nuestras motivaciones.",
-            "Es una barrera que nos impide actuar libremente."
+            "Que el ser humano es incapaz de elegir entre el bien y el mal.",
+            "Que el ser humano siempre decide lo que es, pudiendo denigrarse o enaltecerse.",
+            "Que la libertad humana es una ilusión."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "La conciencia es clave en nuestras decisiones libres, ya que nos ayuda a reflexionar sobre el porqué de nuestras acciones y nos permite actuar de acuerdo con principios éticos."
+        "explicacion": "Según Viktor Frankl, el ser humano siempre decide lo que es, pudiendo hacer el mal o el bien."
     },
     {
         "id": 41,
-        "pregunta": "Según el texto, ¿cuál es el verdadero objetivo de la libertad?",
+        "pregunta": "Según el texto, ¿por qué se afirma que el amor no es un sentimiento?",
         "respuestas": [
-            "Elegir cualquier cosa que deseemos, sin importar las consecuencias.",
-            "Dirigirnos hacia el bien y alcanzar la felicidad.",
-            "Evitar tomar decisiones difíciles para no equivocarnos."
+            "Porque el amor es una emoción pasajera que cambia constantemente.",
+            "Porque el amor implica permanencia y es un acto espiritual más estable que los sentimientos.",
+            "Porque el amor es una ilusión y no existe realmente."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "El verdadero objetivo de la libertad es elegir el bien y orientarnos hacia nuestro fin último, que es alcanzar la felicidad y el perfeccionamiento de nuestra naturaleza."
+        "explicacion": "El amor no es un sentimiento porque los sentimientos son variables y el amor implica permanencia y estabilidad; es un acto espiritual más estable."
     },
     {
         "id": 42,
-        "pregunta": "¿Qué significa que los actos instintivos no sean libres?",
+        "pregunta": "¿Cuál es una de las razones por las que el amor supera las barreras del tiempo y las circunstancias?",
         "respuestas": [
-            "Que son automáticos y no requieren reflexión ni deliberación.",
-            "Que son el resultado de una decisión consciente.",
-            "Que son actos que se realizan voluntariamente."
+            "Porque está basado en intereses mutuos y beneficios.",
+            "Porque es un acto voluntario de entrega y generosidad que surge de la voluntad.",
+            "Porque depende de las emociones y estados de ánimo del momento."
         ],
-        "respuestaCorrecta": 0,
-        "explicacion": "Los actos instintivos no son libres porque se realizan de manera automática, sin reflexión o deliberación consciente, a diferencia de los actos libres y voluntarios."
+        "respuestaCorrecta": 1,
+        "explicacion": "El amor supera las barreras del tiempo porque es un acto voluntario de entrega y generosidad que surge de la facultad de la voluntad."
     },
     {
         "id": 43,
-        "pregunta": "¿Cuál es la diferencia entre el bien aparente y el bien real?",
+        "pregunta": "Según el texto, ¿qué efecto tiene el egoísmo en el amor?",
         "respuestas": [
-            "El bien aparente es el que parece bueno pero puede ser perjudicial, mientras que el bien real es el que verdaderamente nos beneficia.",
-            "El bien real siempre es fácil de identificar y no requiere deliberación.",
-            "No hay diferencia, ambos son igualmente válidos."
+            "Fortalece el amor al centrarse en los propios deseos.",
+            "Destruye el amor al impedir la entrega y el compromiso con el otro.",
+            "No tiene ningún efecto significativo en las relaciones amorosas."
         ],
-        "respuestaCorrecta": 0,
-        "explicacion": "El bien aparente es aquello que parece ser bueno pero que en realidad puede dañarnos, mientras que el bien real es aquello que verdaderamente nos conduce al bienestar y la plenitud."
+        "respuestaCorrecta": 1,
+        "explicacion": "El egoísmo destruye el amor porque la persona egoísta solo busca satisfacer sus propios deseos y es incapaz de entregarse plenamente al otro."
     },
     {
         "id": 44,
-        "pregunta": "Según el texto, ¿qué es un fallo de la libertad?",
+        "pregunta": "¿Por qué el amor se da únicamente entre personas, según el texto?",
         "respuestas": [
-            "Cuando elegimos el mal en lugar del bien.",
-            "Cuando no actuamos espontáneamente.",
-            "Cuando tomamos decisiones basadas en la razón."
+            "Porque solo las personas pueden poseer objetos valiosos.",
+            "Porque el amor requiere de colaboración, comprensión y enriquecimiento mutuo que solo se da entre sujetos con la misma dignidad.",
+            "Porque los objetos no pueden provocar sentimientos en las personas."
         ],
-        "respuestaCorrecta": 0,
-        "explicacion": "El fallo de la libertad ocurre cuando elegimos el mal en lugar del bien, ya que la libertad se perfecciona solo cuando nos orientamos hacia el bien."
+        "respuestaCorrecta": 1,
+        "explicacion": "El amor se da entre personas porque implica un encuentro que requiere colaboración, comprensión y reciprocidad, características que solo poseen los seres humanos."
     },
     {
         "id": 45,
-        "pregunta": "¿Qué caracteriza a un acto voluntario según el texto?",
+        "pregunta": "¿Cuál de los siguientes no es un tipo de amor mencionado en el texto?",
         "respuestas": [
-            "Es un acto realizado sin pensar, de manera espontánea.",
-            "Es un acto libre, elegido conscientemente por la voluntad.",
-            "Es un acto automático que no requiere reflexión."
+            "Amor de pareja.",
+            "Amor de amistad.",
+            "Amor hacia objetos valiosos."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "Un acto voluntario es aquel que es elegido conscientemente por la voluntad después de una deliberación racional."
+        "respuestaCorrecta": 2,
+        "explicacion": "El texto menciona el amor de pareja, entre padres e hijos, hermanos y amigos, pero aclara que el amor se da entre personas, no hacia objetos."
     },
     {
         "id": 46,
-        "pregunta": "¿Cómo afecta la libertad en la formación de nuestra personalidad?",
+        "pregunta": "¿Qué caracteriza al amor desinteresado según el texto?",
         "respuestas": [
-            "Nos permite formarnos como personas a través de las decisiones que tomamos.",
-            "No tiene impacto en nuestra personalidad.",
-            "Nos obliga a seguir siempre los mismos patrones de comportamiento."
+            "Busca el bien del otro sin esperar nada a cambio.",
+            "Se basa en obtener beneficios y placeres personales.",
+            "Requiere reciprocidad inmediata de la otra persona."
         ],
         "respuestaCorrecta": 0,
-        "explicacion": "La libertad nos permite autodeterminarnos y formar nuestra personalidad, ya que cada decisión que tomamos influye en quiénes somos y cómo nos desarrollamos."
+        "explicacion": "El amor desinteresado es aquel que busca el bien del otro sin esperar algo a cambio, entregándose de manera altruista."
     },
     {
         "id": 47,
-        "pregunta": "¿Qué significa ser responsable de nuestros actos?",
+        "pregunta": "Según Aristóteles, ¿cuál es la amistad más completa?",
         "respuestas": [
-            "Que debemos responder ante los demás y nuestra propia conciencia por las consecuencias de nuestras decisiones.",
-            "Que podemos actuar sin preocuparnos por las consecuencias.",
-            "Que solo somos responsables si alguien nos observa."
+            "La amistad de utilidad.",
+            "La amistad por placer.",
+            "La amistad virtuosa."
         ],
-        "respuestaCorrecta": 0,
-        "explicacion": "Ser responsable implica que debemos dar cuenta de nuestras acciones tanto ante los demás como ante nuestra conciencia, asumiendo las consecuencias de nuestros actos."
+        "respuestaCorrecta": 2,
+        "explicacion": "Aristóteles considera que la amistad virtuosa es la más completa, ya que se basa en el apoyo mutuo y la búsqueda del bien del otro."
     },
     {
         "id": 48,
-        "pregunta": "Según el texto, ¿qué relación existe entre libertad y compromiso?",
+        "pregunta": "¿Qué distingue a la amistad virtuosa de otros tipos de amistad?",
         "respuestas": [
-            "El compromiso limita nuestra libertad.",
-            "El compromiso es una expresión de nuestra libertad, al elegir conscientemente vincularnos con algo o alguien.",
-            "El compromiso es incompatible con la libertad, ya que nos obliga a seguir reglas."
+            "Se basa en el beneficio o uso que se puede hacer del otro.",
+            "Se centra en el placer y la diversión compartida.",
+            "Busca el bien del otro y el apoyo mutuo constante, más allá de intereses personales."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "El compromiso no limita la libertad, sino que es una expresión de ella, ya que implica elegir conscientemente vincularnos y actuar de acuerdo con nuestras decisiones."
+        "respuestaCorrecta": 2,
+        "explicacion": "La amistad virtuosa se distingue por querer el bien del otro en sí mismo, con apoyo mutuo y compromiso constante."
     },
     {
         "id": 49,
-        "pregunta": "¿Qué se requiere para que un acto sea considerado libre?",
+        "pregunta": "¿Cuál es una de las características del amor de amistad mencionadas en el texto?",
         "respuestas": [
-            "Que sea realizado espontáneamente, sin pensar en las consecuencias.",
-            "Que sea el resultado de una deliberación racional y elección voluntaria.",
-            "Que no tenga ninguna consecuencia negativa."
+            "Competencia.",
+            "Reciprocidad.",
+            "Indiferencia."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "Un acto es libre cuando es el resultado de una deliberación racional y una elección consciente y voluntaria, no cuando es realizado de manera espontánea o impulsiva."
+        "explicacion": "Una de las características del amor de amistad es la reciprocidad, que implica correspondencia y correlación con la persona amada."
     },
     {
         "id": 50,
-        "pregunta": "¿Por qué la libertad no puede ser absoluta, según el texto?",
+        "pregunta": "¿Qué implica la 'identificación' en el amor de amistad?",
         "respuestas": [
-            "Porque estamos limitados por nuestra naturaleza, las circunstancias físicas y sociales.",
-            "Porque debemos seguir siempre nuestras emociones.",
-            "Porque la libertad implica actuar sin restricciones de ningún tipo."
+            "Ver al otro como un medio para alcanzar nuestros objetivos.",
+            "Reconocer al otro como un tú con la misma dignidad y naturaleza, capaz de empatía y respeto mutuo.",
+            "Perder la propia identidad en función de la otra persona."
         ],
-        "respuestaCorrecta": 0,
-        "explicacion": "La libertad no es absoluta porque está limitada por nuestra naturaleza humana, nuestras circunstancias físicas y sociales, las cuales enmarcan y condicionan nuestras decisiones."
+        "respuestaCorrecta": 1,
+        "explicacion": "La identificación implica reconocer al otro como un tú con la misma dignidad, permitiendo empatía y respeto mutuo."
     },
     {
         "id": 51,
-        "pregunta": "¿Qué permite la autodeterminación según el texto?",
+        "pregunta": "Según el texto, ¿por qué nunca debemos tratar a las personas como instrumentos?",
         "respuestas": [
-            "Nos permite actuar instintivamente sin pensar en las consecuencias.",
-            "Nos permite elegir el bien o el mal y, con ello, formar nuestra identidad.",
-            "Nos obliga a seguir las reglas impuestas por otros."
+            "Porque es ilegal y sancionado por la ley.",
+            "Porque hacerlo impide una relación basada en el amor y la entrega genuina.",
+            "Porque las personas no tienen deseos ni necesidades propias."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "La autodeterminación nos permite elegir libremente entre el bien y el mal, y cada decisión que tomamos contribuye a la formación de nuestra identidad."
+        "explicacion": "Tratar a las personas como instrumentos impide una relación auténtica basada en el amor y el respeto por el otro como un fin en sí mismo."
     },
     {
         "id": 52,
-        "pregunta": "¿Por qué la libertad debe estar guiada por la razón?",
+        "pregunta": "¿Cómo se entiende el 'compromiso' en el contexto del amor de amistad?",
         "respuestas": [
-            "Para permitirnos actuar sin reflexionar.",
-            "Porque la razón nos ayuda a identificar lo que es verdaderamente bueno y a tomar decisiones acertadas.",
-            "Para evitar cometer errores y actuar automáticamente."
+            "Como una limitación a la libertad personal.",
+            "Como una muestra de lealtad y promesa tácita de estar en las buenas y en las malas.",
+            "Como una obligación social sin importancia emocional."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "La libertad debe estar guiada por la razón porque esta nos ayuda a identificar lo que es bueno y nos orienta a tomar decisiones que nos benefician y nos acercan a la felicidad."
+        "explicacion": "El compromiso en el amor implica lealtad y una promesa de apoyo mutuo en todas las circunstancias."
     },
     {
         "id": 53,
-        "pregunta": "¿Qué es un acto libre según el texto?",
+        "pregunta": "¿Qué papel juega el 'sacrificio' en el amor de amistad según el texto?",
         "respuestas": [
-            "Un acto realizado instintivamente.",
-            "Es un acto deliberado, elegido conscientemente por la voluntad.",
-            "Un acto que se realiza automáticamente sin pensar en sus consecuencias."
+            "Es innecesario y debe evitarse.",
+            "Representa esfuerzos y acciones que realizamos por aquellos que amamos, incluso dando lo más preciado.",
+            "Solo se da en relaciones familiares, no en amistades."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "Un acto libre es aquel que ha sido elegido conscientemente y deliberado por la voluntad, no una acción realizada de manera impulsiva o automática."
+        "explicacion": "El sacrificio en el amor implica realizar esfuerzos y estar dispuesto a dar lo más preciado por el bienestar de quienes amamos."
     },
     {
         "id": 54,
-        "pregunta": "¿Qué papel juega la renuncia en la libertad?",
+        "pregunta": "Según el texto, ¿qué efecto tiene la lógica del utilitarismo en las relaciones amorosas?",
         "respuestas": [
-            "Nos impide tomar decisiones importantes.",
-            "Cada decisión que tomamos implica renunciar a otras posibilidades, lo que forma parte del ejercicio de la libertad.",
-            "La renuncia no tiene nada que ver con la libertad."
+            "Fortalece las relaciones al buscar el máximo beneficio para ambos.",
+            "Hace que las relaciones sean más frágiles al valorar al otro solo por placer o utilidad inmediata.",
+            "No tiene ningún efecto en las relaciones personales."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "La renuncia es una parte esencial de la libertad, ya que cada decisión que tomamos implica dejar de lado otras opciones disponibles."
+        "explicacion": "El utilitarismo debilita las relaciones amorosas al valorar al otro solo por el placer o beneficio que proporciona, sin una base sólida de compromiso."
     },
     {
         "id": 55,
-        "pregunta": "¿Por qué es importante la responsabilidad en el ejercicio de la libertad?",
+        "pregunta": "¿Por qué es importante comprender que el amor es un acto espiritual libre?",
         "respuestas": [
-            "Porque nos permite actuar sin pensar en los demás.",
-            "Porque somos responsables de las consecuencias de nuestros actos, tanto ante los demás como ante nuestra propia conciencia.",
-            "Porque la responsabilidad limita nuestra capacidad de actuar libremente."
+            "Porque nos permite formar lazos de amistad basados en decisiones conscientes y voluntarias.",
+            "Porque elimina la necesidad de sacrificio y compromiso.",
+            "Porque convierte el amor en una emoción pasajera."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "La responsabilidad es clave en el ejercicio de la libertad porque somos responsables de las consecuencias de nuestras decisiones, tanto frente a los demás como frente a nuestra conciencia."
+        "respuestaCorrecta": 0,
+        "explicacion": "Entender el amor como un acto espiritual libre nos permite formar lazos basados en elecciones conscientes y compromiso verdadero."
     },
     {
         "id": 56,
-        "pregunta": "¿Cómo afecta la libertad en las relaciones humanas?",
+        "pregunta": "Según el texto, ¿cómo se perfecciona y realiza una persona al amar y entregarse?",
         "respuestas": [
-            "Nos permite actuar de manera egoísta sin pensar en los demás.",
-            "Nos hace responsables de cómo nuestras decisiones afectan a otros, ya que vivimos en una comunidad interconectada.",
-            "Nos aleja de los demás y fomenta la individualidad extrema."
+            "Perdiendo su identidad en función del otro.",
+            "A través de la posesión y control del ser amado.",
+            "Perfeccionándose a sí misma por el acto de amar y entregarse."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "La libertad implica responsabilidad en nuestras relaciones humanas, ya que nuestras acciones siempre tienen un impacto en los demás, lo que refuerza nuestra interconexión en la comunidad."
+        "respuestaCorrecta": 2,
+        "explicacion": "Al amar y entregarse, la persona se perfecciona y realiza a sí misma, enriqueciendo su propia vida."
     },
     {
         "id": 57,
-        "pregunta": "¿Qué relación existe entre libertad y conciencia?",
+        "pregunta": "¿Qué rol juega la 'empatía' en el amor de amistad?",
         "respuestas": [
-            "La conciencia no tiene nada que ver con la libertad.",
-            "La libertad nos obliga a responder ante nuestra propia conciencia, que nos cuestiona sobre nuestras motivaciones.",
-            "La conciencia limita nuestra libertad al juzgar nuestras acciones."
+            "No es relevante en las relaciones de amistad.",
+            "Es fundamental para entender y compartir los sentimientos del otro.",
+            "Es un obstáculo para la identificación con el otro."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "La libertad implica responder ante nuestra conciencia, que constantemente nos cuestiona sobre nuestras decisiones y motivaciones, lo que nos ayuda a reflexionar y mejorar."
+        "explicacion": "La empatía es esencial en el amor de amistad para comprender y conectar profundamente con el otro."
     },
     {
         "id": 58,
-        "pregunta": "¿Qué implica elegir el bien en el ejercicio de la libertad?",
+        "pregunta": "Según el texto, ¿qué sucede cuando se valora al otro solo por el placer o beneficio que proporciona?",
         "respuestas": [
-            "Que actuamos instintivamente sin deliberar.",
-            "Que nos acercamos al perfeccionamiento de nuestra naturaleza y a la felicidad.",
-            "Que evitamos tomar decisiones difíciles para no equivocarnos."
+            "Se fortalece la relación al maximizar la felicidad.",
+            "La relación carece de bases sólidas y es propensa a terminar cuando cesa el beneficio.",
+            "Se desarrolla una amistad virtuosa y duradera."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "Elegir el bien implica dirigirnos hacia el perfeccionamiento de nuestra naturaleza humana y alcanzar la felicidad, que es el fin último de nuestras decisiones libres."
+        "explicacion": "Si se valora al otro solo por placer o beneficio, la relación es frágil y puede terminar al desaparecer esas condiciones."
     },
     {
         "id": 59,
-        "pregunta": "¿Por qué no se puede confundir libertad con espontaneidad?",
+        "pregunta": "¿Cuál es la importancia de la 'lealtad' en las relaciones de amistad?",
         "respuestas": [
-            "Porque ambas son lo mismo y no hay diferencia.",
-            "Porque la libertad implica deliberación y elección consciente, mientras que la espontaneidad no tiene reflexión.",
-            "Porque la espontaneidad nos lleva a tomar decisiones más racionales."
+            "Es secundaria y no afecta la calidad de la amistad.",
+            "Es esencial para generar confianza y seguridad en la relación.",
+            "Es necesaria solo en relaciones familiares."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "La libertad implica una elección consciente y deliberada, mientras que la espontaneidad es una reacción instintiva y no reflexionada, lo que no corresponde a un acto verdaderamente libre."
+        "explicacion": "La lealtad es crucial en la amistad, ya que permite construir confianza y seguridad entre las personas."
     },
     {
         "id": 60,
-        "pregunta": "¿Qué permite el compromiso en el ejercicio de la libertad?",
+        "pregunta": "Según el texto, ¿cómo contribuye la capacidad de amar al perfeccionamiento de nuestra naturaleza?",
         "respuestas": [
-            "Limita nuestra capacidad de tomar decisiones.",
-            "Manifiesta nuestra plena libertad, ya que implica elegir voluntariamente vincularnos con algo o alguien.",
-            "El compromiso no tiene relación con la libertad."
+            "Nos permite aislarnos y evitar relaciones conflictivas.",
+            "Facilita la convivencia con seres amados, enriqueciendo nuestra vida y llevando a una vida buena y feliz.",
+            "No tiene impacto significativo en nuestro desarrollo personal."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "El compromiso es una manifestación de la plena libertad, ya que implica una elección voluntaria de vincularnos con algo o alguien, y no limita nuestra capacidad de actuar libremente."
+        "explicacion": "La capacidad de amar nos ayuda a convivir con otros, perfeccionando nuestra naturaleza y conduciéndonos a una vida plena y feliz."
     },
     {
         "id": 61,
-        "pregunta": "¿Qué diferencia al amor de un sentimiento, según el texto?",
+        "pregunta": "Según Boecio, ¿cómo se define a la persona?",
         "respuestas": [
-            "El amor es una emoción cambiante y temporal.",
-            "El amor es un acto espiritual estable y duradero, mientras que los sentimientos son variables.",
-            "El amor depende de la satisfacción de nuestras necesidades físicas."
+            "Es una sustancia individual de naturaleza racional.",
+            "Es un ser humano definido por sus accidentes y cualidades.",
+            "Es un individuo que existe solo por sus características físicas."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "El amor, según el texto, es un acto espiritual que implica permanencia y estabilidad, mientras que los sentimientos son cambiantes y dependientes de situaciones temporales."
+        "respuestaCorrecta": 0,
+        "explicacion": "Boecio define a la persona como una 'sustancia individual de naturaleza racional', destacando su capacidad de existir por sí misma y su racionalidad."
     },
     {
         "id": 62,
-        "pregunta": "¿Por qué el amor no es egoísta según el texto?",
+        "pregunta": "En la definición de Boecio, ¿qué significa que la persona es una 'sustancia'?",
         "respuestas": [
-            "Porque el amor implica sacrificio y la búsqueda del bien del otro.",
-            "Porque el amor siempre busca el beneficio propio antes que el de los demás.",
-            "Porque el amor depende únicamente de lo que recibimos de los demás."
+            "Que depende de otros para existir.",
+            "Que es capaz de existir por sí misma.",
+            "Que es una cualidad de otro ser."
         ],
-        "respuestaCorrecta": 0,
-        "explicacion": "El amor auténtico, según el texto, no es egoísta, porque implica una entrega desinteresada en busca del bienestar del otro."
+        "respuestaCorrecta": 1,
+        "explicacion": "Una 'sustancia' es algo que puede existir por sí mismo, a diferencia de un 'accidente' que depende de otro ser para existir."
     },
     {
         "id": 63,
-        "pregunta": "¿Qué caracteriza al amor de amistad, según el texto?",
+        "pregunta": "¿Cuál de los siguientes es un ejemplo de 'accidente' según el texto?",
         "respuestas": [
-            "Se basa en la diversión y los buenos momentos compartidos.",
-            "Se fundamenta en la complicidad y el apoyo mutuo para buscar el bien del otro.",
-            "Se basa en la utilidad que obtenemos del otro."
+            "La altura de una persona.",
+            "La existencia de una persona.",
+            "La capacidad de razonar."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "El amor de amistad, según el texto, implica apoyo mutuo, complicidad y el deseo de mejorar y buscar el bien del otro."
+        "respuestaCorrecta": 0,
+        "explicacion": "La altura es un 'accidente' o cualidad que no define esencialmente a la persona y no puede existir por sí misma."
     },
     {
         "id": 64,
-        "pregunta": "¿Cómo define Aristóteles la amistad virtuosa?",
+        "pregunta": "Según el texto, ¿por qué la persona es 'individual'?",
         "respuestas": [
-            "Es la amistad basada en el placer que se obtiene de la relación.",
-            "Es una amistad que se funda en la búsqueda del bien mutuo y en la virtud.",
-            "Es la amistad basada en el beneficio que se obtiene del otro."
+            "Porque comparte características comunes con otros seres.",
+            "Porque es un ser irrepetible y original, un 'quién' con nombre propio.",
+            "Porque carece de rasgos distintivos."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "Según Aristóteles, la amistad virtuosa se basa en la búsqueda del bien mutuo y en el desarrollo de la virtud, más allá del placer o la utilidad que pueda ofrecer."
+        "explicacion": "La persona es 'individual' porque es única e irrepetible, con identidad propia y particularidades que le otorgan valor especial."
     },
     {
         "id": 65,
-        "pregunta": "¿Por qué el amor incluye sacrificio, según el texto?",
+        "pregunta": "¿Qué significa que la persona es de 'naturaleza racional'?",
         "respuestas": [
-            "Porque el sacrificio es una muestra de compromiso con la persona amada.",
-            "Porque el sacrificio implica renunciar a nuestras metas personales por el otro.",
-            "Porque el sacrificio solo se da cuando recibimos algo a cambio."
+            "Que siempre actúa sin emociones.",
+            "Que posee inteligencia y voluntad, facultades propias de los seres humanos.",
+            "Que su valor depende de su capacidad actual de pensar."
         ],
-        "respuestaCorrecta": 0,
-        "explicacion": "El sacrificio es parte del amor, ya que implica esfuerzos desinteresados para el bienestar del otro y es una muestra de compromiso genuino."
+        "respuestaCorrecta": 1,
+        "explicacion": "Ser de 'naturaleza racional' implica tener inteligencia y voluntad, características que definen a los seres humanos."
     },
     {
         "id": 66,
-        "pregunta": "¿Qué ocurre cuando el amor se basa solo en la utilidad o el placer?",
+        "pregunta": "¿Cómo se relacionan los conceptos de 'acto' y 'potencia' con la definición de persona?",
         "respuestas": [
-            "La relación es duradera y estable.",
-            "La relación es frágil y se termina cuando ya no hay placer o utilidad.",
-            "La relación se vuelve más profunda con el tiempo."
+            "Una persona es definida solo por sus acciones presentes.",
+            "Una persona tiene capacidades en potencia que pueden desarrollarse con el tiempo.",
+            "Los conceptos de acto y potencia no se aplican a las personas."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "El texto señala que cuando el amor se basa únicamente en la utilidad o el placer, la relación se vuelve frágil y se disuelve cuando ya no hay nada que obtener."
+        "explicacion": "La persona no se define por su capacidad actual de pensar o querer, sino por tener esas facultades en potencia."
     },
     {
         "id": 67,
-        "pregunta": "¿Qué distingue el amor entre personas del afecto por objetos?",
+        "pregunta": "Según el texto, ¿por qué un embrión o un recién nacido es considerado una persona?",
         "respuestas": [
-            "Los objetos pueden generar la misma reciprocidad que las personas.",
-            "El amor solo puede existir entre personas, ya que implica reciprocidad y respeto mutuo.",
-            "El amor por los objetos es más fuerte que el amor entre personas."
+            "Porque ya ejerce plenamente su inteligencia y voluntad.",
+            "Porque tiene en potencia las facultades racionales y es miembro de la especie humana.",
+            "Porque depende completamente de su madre para sobrevivir."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "El amor verdadero solo puede darse entre personas, ya que implica reciprocidad, respeto y el intercambio mutuo, lo cual no puede suceder con objetos."
+        "explicacion": "El embrión o recién nacido es persona porque posee en potencia las facultades racionales y pertenece a la especie humana."
     },
     {
         "id": 68,
-        "pregunta": "¿Qué característica fundamental implica el amor de amistad?",
+        "pregunta": "¿Cuál es la diferencia entre 'ser su cuerpo' y 'estar en su cuerpo' en relación con el embrión y la madre?",
         "respuestas": [
-            "Implicar placer mutuo y diversión.",
-            "Compromiso y lealtad a la otra persona, incluso en momentos difíciles.",
-            "Dependencia total de la otra persona."
+            "No hay diferencia; ambos significan lo mismo.",
+            "El embrión 'está en' el cuerpo de la madre pero no es parte de su cuerpo.",
+            "El embrión es completamente independiente y no depende de la madre."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "El amor de amistad incluye un compromiso y lealtad, incluso en los momentos difíciles, ya que se basa en el deseo genuino de bien para el otro."
+        "explicacion": "El embrión 'está en' el cuerpo de la madre pero es un individuo distinto; no es parte del cuerpo de la madre."
     },
     {
         "id": 69,
-        "pregunta": "¿Qué implica la entrega en el amor?",
+        "pregunta": "Según el texto, ¿por qué las personas no pueden ser usadas como medios para fines ajenos?",
         "respuestas": [
-            "Buscar siempre nuestro propio bienestar.",
-            "Salir de uno mismo para buscar el bien del otro, sin usarlo como un medio.",
-            "Evitar cualquier tipo de sacrificio por la otra persona."
+            "Porque son seres racionales y libres con dignidad inherente.",
+            "Porque pueden resistirse si no desean ser usados.",
+            "Porque las leyes lo prohíben."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "La entrega en el amor implica salir de uno mismo para buscar el bien de la otra persona, sin utilizarla para obtener algo a cambio."
+        "respuestaCorrecta": 0,
+        "explicacion": "Las personas tienen dignidad y valor intrínseco, por lo que no deben ser tratadas como medios para otros fines."
     },
     {
         "id": 70,
-        "pregunta": "¿Por qué se dice que el amor es un acto espiritual?",
+        "pregunta": "¿Cómo define Immanuel Kant el concepto de dignidad humana?",
         "respuestas": [
-            "Porque depende de los deseos instintivos.",
-            "Porque implica una decisión voluntaria y libre, más allá de los sentimientos cambiantes.",
-            "Porque solo ocurre en situaciones materiales."
+            "Como la capacidad de lograr objetivos personales.",
+            "Como algo propio de cada persona que no puede ser usado como medio, sino que es siempre un fin en sí mismo.",
+            "Como la habilidad de pensar y actuar racionalmente en todo momento."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "El amor es un acto espiritual porque implica una decisión voluntaria, libre y estable, y no depende de sentimientos que pueden cambiar."
+        "explicacion": "Kant sostiene que la dignidad humana se basa en que cada persona es un fin en sí misma y no debe ser instrumentalizada."
     },
     {
         "id": 71,
-        "pregunta": "¿Qué relación existe entre el compromiso y el amor verdadero?",
+        "pregunta": "¿Cuál es el valor único que posee la persona, según el texto?",
         "respuestas": [
-            "El compromiso es opcional y no afecta al amor.",
-            "El compromiso es una parte fundamental del amor, porque implica lealtad y apoyo mutuo.",
-            "El compromiso solo existe cuando recibimos algo a cambio."
+            "Su capacidad de trabajar y producir bienes.",
+            "Su dignidad inherente por ser un ser racional y libre.",
+            "Su utilidad para la sociedad."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "El compromiso es parte integral del amor verdadero, ya que implica lealtad, apoyo y el estar presente para la otra persona, sin importar las dificultades."
+        "explicacion": "La persona posee una dignidad inherente que le otorga un valor único por ser un ser racional y libre."
     },
     {
         "id": 72,
-        "pregunta": "Según el texto, ¿qué tipo de amistad es la más valiosa?",
+        "pregunta": "Según el texto, ¿por qué las violaciones a la dignidad humana aún ocurren en la actualidad?",
         "respuestas": [
-            "La amistad basada en la diversión.",
-            "La amistad virtuosa, que busca el bien del otro y se sostiene en la virtud.",
-            "La amistad que busca obtener algún beneficio."
+            "Porque las personas no son conscientes de sus derechos.",
+            "Porque algunas prácticas consideran a las personas como medios para abaratar costos o enriquecerse.",
+            "Porque es imposible evitar todas las injusticias."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "La amistad virtuosa es la más valiosa, ya que se basa en el deseo de bien mutuo y en la búsqueda de la virtud, más allá del placer o el beneficio."
+        "explicacion": "Las violaciones ocurren cuando se ve a las personas como medios para otros fines, vulnerando su dignidad."
     },
     {
         "id": 73,
-        "pregunta": "¿Qué es el sacrificio en el amor, según el texto?",
+        "pregunta": "¿Cuál es el primer y más fundamental de los derechos inalienables de la persona?",
         "respuestas": [
-            "Es un esfuerzo por obtener lo que queremos.",
-            "Es la disposición a hacer esfuerzos por el bienestar de la persona amada, incluso en pequeños gestos cotidianos.",
-            "Es evitar cualquier tipo de dificultad o esfuerzo en la relación."
+            "El derecho a la propiedad privada.",
+            "El derecho a la libertad de expresión.",
+            "El derecho a la vida."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "El sacrificio en el amor implica estar dispuesto a hacer esfuerzos, tanto grandes como pequeños, por el bienestar de la persona amada, incluso si eso significa renunciar a algo propio."
+        "respuestaCorrecta": 2,
+        "explicacion": "El derecho a la vida es el primero y más fundamental de los derechos inalienables, base para todos los demás."
     },
     {
         "id": 74,
-        "pregunta": "¿Cómo se manifiesta la reciprocidad en el amor?",
+        "pregunta": "¿Qué se entiende por que la persona es un 'fin en sí misma'?",
         "respuestas": [
-            "Cuando una persona recibe más que la otra.",
-            "En la correspondencia y el intercambio mutuo de ideas, emociones y apoyo entre personas.",
-            "Cuando una persona domina por completo a la otra."
+            "Que tiene un valor intrínseco y no debe ser usada como medio para otros fines.",
+            "Que debe buscar siempre sus propios intereses sin considerar a los demás.",
+            "Que no necesita relacionarse con otras personas."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "La reciprocidad en el amor se manifiesta en la correspondencia y el intercambio mutuo entre personas, ya sea de ideas, apoyo emocional o experiencias compartidas."
+        "respuestaCorrecta": 0,
+        "explicacion": "Ser un 'fin en sí misma' significa que la persona tiene valor por sí misma y no debe ser instrumentalizada."
     },
     {
         "id": 75,
-        "pregunta": "¿Qué nos permite el amor según el texto?",
+        "pregunta": "Según el texto, ¿por qué es importante el autoconocimiento en la persona?",
         "respuestas": [
-            "Nos permite controlar a las personas.",
-            "Nos permite realizarnos y perfeccionarnos como personas al entregarnos a los demás.",
-            "Nos permite buscar solo nuestros intereses."
+            "Para conocerse, poseerse y poder entregarse a una convivencia sana con otros.",
+            "Para poder manipular mejor a los demás.",
+            "Para aislarse y evitar relaciones sociales."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "El amor nos permite realizarnos como personas al entregarnos a los demás, lo que contribuye a nuestro propio crecimiento y perfeccionamiento personal."
+        "respuestaCorrecta": 0,
+        "explicacion": "El autoconocimiento permite a la persona conocerse, poseerse y entregarse a otros, favoreciendo relaciones sanas."
     },
     {
         "id": 76,
-        "pregunta": "¿Por qué el amor no es solo una emoción, según el texto?",
+        "pregunta": "¿Cuál es la relación entre poseerse a sí mismo y poder entregarse a otros?",
         "respuestas": [
-            "Porque las emociones son más fuertes que el amor.",
-            "Porque las emociones cambian constantemente.",
-            "Porque el amor es un acto espiritual que implica voluntad y permanencia."
+            "No hay relación; son aspectos independientes.",
+            "Solo al poseerse y conocerse uno puede entregarse plenamente a otros en un acto de amor.",
+            "Al poseerse a sí mismo, uno no necesita de los demás."
         ],
-        "respuestaCorrecta": 2,
-        "explicacion": "El amor no es solo una emoción, porque es un acto espiritual que involucra la voluntad y tiene una permanencia más allá de los sentimientos que pueden ser cambiantes."
+        "respuestaCorrecta": 1,
+        "explicacion": "Al conocerse y poseerse, la persona es capaz de entregarse a otros, abriéndose a una convivencia sana y encontrando plenitud."
     },
     {
         "id": 77,
-        "pregunta": "¿Qué diferencia al amor de una relación basada en el egoísmo?",
+        "pregunta": "¿Por qué las cosas tienen un valor diferente al de las personas?",
         "respuestas": [
-            "El amor busca siempre el placer personal.",
-            "El amor es una experiencia temporal.",
-            "El amor busca el bien del otro, mientras que el egoísmo busca solo satisfacer las propias necesidades."
+            "Porque las cosas tienen valor monetario y pueden ser desechadas; las personas tienen dignidad y valor intrínseco.",
+            "Porque las personas son inferiores a las cosas.",
+            "Porque las cosas son más útiles que las personas."
         ],
-        "respuestaCorrecta": 2,
-        "explicacion": "El amor verdadero busca el bienestar de la otra persona, mientras que el egoísmo se centra en la satisfacción de los propios deseos y necesidades."
+        "respuestaCorrecta": 0,
+        "explicacion": "Las cosas pueden ser reemplazadas; las personas tienen una dignidad inherente que no se pierde y no pueden ser tratadas como objetos."
     },
     {
         "id": 78,
-        "pregunta": "¿Cuál es la principal diferencia entre el amor entre personas y el afecto hacia objetos?",
+        "pregunta": "¿Qué se entiende por 'derechos inalienables' de la persona?",
         "respuestas": [
-            "El amor hacia los objetos es más intenso.",
-            "El afecto hacia los objetos dura más que el amor entre personas.",
-            "El amor entre personas implica reciprocidad y respeto mutuo, lo que no es posible con los objetos."
+            "Derechos que no pueden ser arrebatados y son inherentes a la persona.",
+            "Derechos que pueden ser suspendidos bajo ciertas circunstancias.",
+            "Derechos otorgados por el estado y sujetos a cambios legales."
         ],
-        "respuestaCorrecta": 2,
-        "explicacion": "El amor entre personas implica reciprocidad y respeto mutuo, algo que no puede darse con los objetos, que no son capaces de corresponder."
+        "respuestaCorrecta": 0,
+        "explicacion": "Los derechos inalienables son aquellos que no pueden ser quitados y son inherentes a la persona por su dignidad."
     },
     {
         "id": 79,
-        "pregunta": "¿Qué caracteriza a la amistad virtuosa según Aristóteles?",
+        "pregunta": "Según el texto, ¿cómo afecta la dependencia del embrión de la madre a su condición de individuo?",
         "respuestas": [
-            "Se basa en la utilidad y los beneficios mutuos.",
-            "Se basa en el placer que brinda la compañía del otro.",
-            "Se basa en el apoyo mutuo y en la búsqueda del bien del otro como un fin en sí mismo."
+            "No afecta su condición de individuo; sigue siendo un ser humano distinto.",
+            "Lo convierte en parte del cuerpo de la madre.",
+            "Hace que no sea considerado un ser humano aún."
         ],
-        "respuestaCorrecta": 2,
-        "explicacion": "La amistad virtuosa, según Aristóteles, se basa en el deseo mutuo de bien y en el apoyo constante, considerando al amigo un fin en sí mismo, no un medio para obtener algo."
+        "respuestaCorrecta": 0,
+        "explicacion": "Aunque el embrión depende totalmente de la madre, es un individuo con su propio código genético; no es parte del cuerpo de la madre."
     },
     {
         "id": 80,
-        "pregunta": "¿Qué es el sacrificio en el amor, según el texto?",
+        "pregunta": "¿Cuál es el papel de la inteligencia y la voluntad en la definición de persona?",
         "respuestas": [
-            "Es evitar cualquier tipo de esfuerzo.",
-            "Es renunciar a nuestras metas personales por completo.",
-            "Es la disposición a hacer esfuerzos por el bienestar del otro, incluso en los pequeños gestos cotidianos."
+            "Son facultades operativas que definen a la persona como ser racional, aunque no siempre estén en acto.",
+            "Solo son relevantes si se ejercen continuamente.",
+            "No son importantes para la definición de persona."
         ],
-        "respuestaCorrecta": 2,
-        "explicacion": "El sacrificio en el amor implica estar dispuesto a hacer esfuerzos, tanto grandes como pequeños, por el bienestar de la persona amada."
+        "respuestaCorrecta": 0,
+        "explicacion": "La inteligencia y la voluntad son facultades que definen a la persona como ser racional, aunque no siempre se ejerzan en acto."
     },
     {
         "id": 81,
-        "pregunta": "¿Qué implica la entrega en una relación de amor?",
+        "pregunta": "¿Por qué es incorrecto definir a la persona solo por su capacidad actual de pensar o querer?",
         "respuestas": [
-            "Buscar siempre nuestro propio beneficio.",
-            "Tratar a la otra persona como un medio para lograr nuestros propósitos.",
-            "Salir de uno mismo para buscar el bien del otro, reconociéndolo como valioso por sí mismo."
+            "Porque entonces no serían personas quienes duermen o están en coma.",
+            "Porque todos siempre están pensando y queriendo.",
+            "Porque la capacidad actual es lo único que importa."
         ],
-        "respuestaCorrecta": 2,
-        "explicacion": "La entrega en el amor implica salir de uno mismo para buscar el bien de la otra persona, considerándola valiosa por lo que es, no como un medio para alcanzar otros fines."
+        "respuestaCorrecta": 0,
+        "explicacion": "Definir a la persona solo por su capacidad actual excluiría a quienes duermen o están en coma; la persona tiene esas facultades en potencia."
     },
     {
         "id": 82,
-        "pregunta": "¿Cómo se manifiesta el compromiso en el amor?",
+        "pregunta": "¿Qué importancia tiene el código genético en la consideración de una persona?",
         "respuestas": [
-            "Se manifiesta solo cuando recibimos algo a cambio.",
-            "Solo es necesario en las relaciones de pareja.",
-            "Implica lealtad y apoyo mutuo, incluso en los momentos difíciles."
+            "Es crucial, ya que cada ser humano tiene un código genético único que define su individualidad.",
+            "Es irrelevante; lo importante es la apariencia física.",
+            "Solo importa en estudios científicos."
         ],
-        "respuestaCorrecta": 2,
-        "explicacion": "El compromiso en el amor implica lealtad y apoyo mutuo, incluso en los momentos difíciles, y es fundamental en todo tipo de relaciones, no solo de pareja."
+        "respuestaCorrecta": 0,
+        "explicacion": "El código genético es único en cada persona y establece su individualidad y pertenencia a la especie humana."
     },
     {
         "id": 83,
-        "pregunta": "Según el texto, ¿qué permite la reciprocidad en el amor?",
+        "pregunta": "Según el texto, ¿qué permite a la persona acercarse a la autorrealización y a la vida buena en sociedad?",
         "respuestas": [
-            "Permite obtener beneficios personales.",
-            "Es innecesaria en una relación de amor.",
-            "Permite un intercambio de ideas, apoyo y comprensión mutua entre las personas."
+            "El ejercicio de la libertad a la luz de las virtudes y el conocimiento de su propia naturaleza.",
+            "El aislamiento y la evitación de relaciones.",
+            "La búsqueda exclusiva de bienes materiales."
         ],
-        "respuestaCorrecta": 2,
-        "explicacion": "La reciprocidad en el amor permite un intercambio mutuo de ideas, apoyo y comprensión, enriqueciendo la relación y fortaleciendo el vínculo entre las personas."
+        "respuestaCorrecta": 0,
+        "explicacion": "El ejercicio de la libertad orientado por virtudes y el autoconocimiento permite a la persona autorrealizarse y vivir bien en sociedad."
     },
     {
         "id": 84,
-        "pregunta": "¿Qué es la identificación con el otro en una relación de amor?",
+        "pregunta": "¿Qué rol juega la convivencia con otros en la realización personal?",
         "respuestas": [
-            "Es considerar al otro como inferior.",
-            "Es buscar que la otra persona cambie completamente.",
-            "Es reconocer al otro como un igual, con la misma dignidad y capacidad de empatía."
+            "Es esencial, ya que la persona despliega su ser con otros y encuentra plenitud al entregarse.",
+            "Es innecesaria para la autorrealización.",
+            "Es perjudicial y limita el desarrollo personal."
         ],
-        "respuestaCorrecta": 2,
-        "explicacion": "La identificación en una relación de amor implica reconocer al otro como un igual, con la misma dignidad, y ser capaz de empatizar y apoyarse mutuamente."
+        "respuestaCorrecta": 0,
+        "explicacion": "La convivencia y entrega a otros son esenciales para la realización personal, permitiendo desplegar su ser y encontrar plenitud."
     },
     {
         "id": 85,
-        "pregunta": "Según el texto, ¿qué ocurre cuando una relación se basa en el egoísmo?",
+        "pregunta": "¿Qué indica el hecho de que las personas no pierden su valor con el tiempo?",
         "respuestas": [
-            "La relación se vuelve más fuerte.",
-            "El amor entre las personas se profundiza.",
-            "El egoísmo destruye el amor, ya que impide la entrega y el compromiso con el otro."
+            "Que su dignidad es inherente y no se pierde, a diferencia de las cosas que pueden ser desechadas.",
+            "Que siempre tienen el mismo valor monetario.",
+            "Que no envejecen ni cambian con el tiempo."
         ],
-        "respuestaCorrecta": 2,
-        "explicacion": "El egoísmo destruye el amor porque impide la entrega genuina y el compromiso, ya que la persona egoísta solo busca satisfacer sus propias necesidades."
+        "respuestaCorrecta": 0,
+        "explicacion": "Las personas tienen una dignidad inherente que no se pierde, a diferencia de las cosas que pierden valor y pueden ser desechadas."
     },
     {
         "id": 86,
-        "pregunta": "¿Qué caracteriza a una relación amorosa basada en el utilitarismo?",
+        "pregunta": "Según el texto, ¿qué marca todas las dimensiones del ser humano como el ser libre, la familia y la sociedad?",
         "respuestas": [
-            "Se enfoca en la entrega y el sacrificio mutuo.",
-            "Se fortalece a través del apoyo incondicional.",
-            "Se basa en el beneficio personal y tiende a romperse cuando ya no hay utilidad."
+            "La verdad de la persona humana como un ser con dignidad y derechos inalienables.",
+            "La necesidad de competir y superar a los demás.",
+            "La importancia de acumular riquezas y poder."
         ],
-        "respuestaCorrecta": 2,
-        "explicacion": "Una relación basada en el utilitarismo tiende a romperse cuando ya no hay beneficios personales, ya que se basa en la utilidad y no en el compromiso o la entrega mutua."
+        "respuestaCorrecta": 0,
+        "explicacion": "La dignidad y los derechos inalienables de la persona humana marcan todas las dimensiones de su existencia."
     },
     {
         "id": 87,
-        "pregunta": "¿Qué permite el amor en la realización personal?",
+        "pregunta": "¿Qué ejemplos da el texto de transgresiones a la dignidad humana?",
         "respuestas": [
-            "Nos permite depender completamente del otro.",
-            "Nos impide enfocarnos en nuestras metas.",
-            "Nos permite perfeccionarnos como personas al entregarnos a los demás de manera desinteresada."
+            "Genocidios en guerras y formas de esclavitud.",
+            "La mejora de las condiciones laborales.",
+            "El avance de la tecnología."
         ],
-        "respuestaCorrecta": 2,
-        "explicacion": "El amor nos permite perfeccionarnos como personas, ya que al entregarnos a los demás de manera desinteresada, también crecemos y nos realizamos."
+        "respuestaCorrecta": 0,
+        "explicacion": "El texto menciona genocidios y esclavitud como ejemplos de violaciones a la dignidad humana."
     },
     {
         "id": 88,
-        "pregunta": "¿Por qué la amistad virtuosa es más valiosa que la amistad basada en el placer?",
+        "pregunta": "¿Qué se necesita para que una persona se 'posea' a sí misma, según el texto?",
         "respuestas": [
-            "Porque se basa en los beneficios personales que se obtienen.",
-            "Porque no requiere ningún tipo de compromiso.",
-            "Porque busca el bien mutuo y perdura incluso en los momentos difíciles."
+            "Desarrollar el autoconocimiento y saber sus límites y alcances.",
+            "Depender completamente de otros para sus decisiones.",
+            "Ignorar sus propias necesidades."
         ],
-        "respuestaCorrecta": 2,
-        "explicacion": "La amistad virtuosa es más valiosa porque busca el bien mutuo y perdura a lo largo del tiempo, incluso en los momentos difíciles, a diferencia de la amistad basada solo en el placer."
+        "respuestaCorrecta": 0,
+        "explicacion": "Para poseerse a sí misma, la persona debe conocerse, saber sus límites y alcances, y guiar sus acciones."
     },
     {
         "id": 89,
-        "pregunta": "Según el texto, ¿qué ocurre en una relación amorosa cuando falta el sacrificio?",
+        "pregunta": "¿Por qué es importante el pudor y la intimidad en el desarrollo personal?",
         "respuestas": [
-            "La relación se vuelve más profunda.",
-            "El compromiso se fortalece.",
-            "La relación se vuelve frágil, ya que sin sacrificio no hay entrega verdadera."
+            "Porque permiten guardar un mundo interior formado por reflexión y experiencias.",
+            "Porque ayudan a evitar cualquier interacción social.",
+            "Porque son señales de debilidad."
         ],
-        "respuestaCorrecta": 2,
-        "explicacion": "Cuando falta el sacrificio en una relación amorosa, esta se vuelve frágil, ya que la entrega verdadera requiere esfuerzos desinteresados por el bienestar del otro."
+        "respuestaCorrecta": 0,
+        "explicacion": "El pudor y la intimidad protegen el mundo interior de la persona, formado por su reflexión y experiencias personales."
     },
     {
         "id": 90,
-        "pregunta": "¿Qué nos permite el amor desinteresado en las relaciones interpersonales?",
+        "pregunta": "Según el texto, ¿qué sucede cuando las empresas ven a sus trabajadores como medios para abaratar costos?",
         "respuestas": [
-            "Nos permite obtener más beneficios personales.",
-            "Nos obliga a depender completamente del otro.",
-            "Nos permite alegrarnos por el bienestar del otro sin esperar nada a cambio."
+            "Se vulnera la dignidad de las personas al tratarlas como medios y no como fines en sí mismos.",
+            "Se mejora la economía global.",
+            "Se promueve el bienestar de los trabajadores."
         ],
-        "respuestaCorrecta": 2,
-        "explicacion": "El amor desinteresado nos permite alegrarnos por el bienestar del otro sin esperar nada a cambio, lo que refuerza la autenticidad de la relación."
+        "respuestaCorrecta": 0,
+        "explicacion": "Cuando las empresas tratan a los trabajadores como medios para abaratar costos, vulneran su dignidad al no reconocerlos como fines en sí mismos."
     },
     {
         "id": 91,
-        "pregunta": "¿Qué diferencia al amor de pareja del amor de amistad, según el texto?",
+        "pregunta": "Según el texto, ¿por qué se considera al ser humano como un ser social?",
         "respuestas": [
-            "El amor de amistad no implica ningún compromiso emocional.",
-            "El amor de pareja incluye una entrega exclusiva, mientras que el amor de amistad se enfoca más en el apoyo mutuo.",
-            "El amor de pareja se basa únicamente en la utilidad."
+            "Porque la naturaleza humana siempre se desarrolla y perfecciona en la convivencia con otros.",
+            "Porque los seres humanos son autosuficientes y no necesitan de otros.",
+            "Porque los individuos pueden alcanzar la autorrealización en aislamiento."
         ],
-        "respuestaCorrecta": 1,
-        "explicacion": "El amor de pareja implica una entrega exclusiva y más profunda en términos de compromiso emocional, mientras que el amor de amistad se basa en el apoyo mutuo y el deseo de bienestar del otro."
+        "respuestaCorrecta": 0,
+        "explicacion": "El texto afirma que nuestra naturaleza se desarrolla y perfecciona en convivencia con otros, por lo que somos seres sociales."
     },
     {
         "id": 92,
-        "pregunta": "¿Qué ejemplos de amor desinteresado se mencionan en el texto?",
+        "pregunta": "¿Cuál es el primer núcleo donde recibimos afecto y aprendemos a relacionarnos, según el texto?",
         "respuestas": [
-            "Cuando alguien busca siempre su propio placer.",
-            "Cuando una madre cuida a sus hijos sin esperar nada a cambio o cuando alguien ayuda desinteresadamente a otro.",
-            "Cuando una persona se aprovecha de otra por su beneficio."
+            "La sociedad en general.",
+            "La familia.",
+            "La escuela."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "El amor desinteresado se ejemplifica en situaciones donde una persona ayuda a otra sin buscar nada a cambio, como una madre que cuida a sus hijos o una persona que ayuda a un necesitado."
+        "explicacion": "El texto menciona que la familia es el primer núcleo donde recibimos afecto y aprendemos a relacionarnos."
     },
     {
         "id": 93,
-        "pregunta": "¿Cómo impacta el amor en la formación de la identidad personal?",
+        "pregunta": "¿Cómo define Aristóteles al ser humano en relación con la sociedad?",
         "respuestas": [
-            "Nos hace depender completamente de los demás.",
-            "El amor no tiene ningún impacto en la identidad personal.",
-            "El amor contribuye a nuestro desarrollo personal al permitirnos crecer y perfeccionarnos al entregarnos a otros."
+            "Como un individuo que solo se preocupa por sí mismo.",
+            "Como un animal político que establece lazos y construye comunidad.",
+            "Como un ser autosuficiente que no necesita de otros."
         ],
-        "respuestaCorrecta": 2,
-        "explicacion": "El amor nos ayuda a desarrollarnos y perfeccionarnos como personas, ya que en la entrega desinteresada hacia los demás, también construimos nuestra propia identidad."
+        "respuestaCorrecta": 1,
+        "explicacion": "Aristóteles define al ser humano como un animal político que establece lazos con los demás y construye comunidad."
     },
     {
         "id": 94,
-        "pregunta": "¿Cuál es una diferencia clave entre el amor superficial y el amor auténtico?",
+        "pregunta": "Según el texto, ¿por qué necesitamos de la sociedad?",
         "respuestas": [
-            "El amor auténtico implica un compromiso profundo y desinteresado, mientras que el amor superficial se basa en la utilidad o el placer.",
-            "El amor superficial está basado en la entrega total.",
-            "El amor superficial dura más tiempo que el amor auténtico."
+            "Para competir con otros y demostrar superioridad.",
+            "Porque los seres humanos prefieren vivir solos.",
+            "Para sobrevivir y cubrir necesidades básicas, tanto materiales como morales."
         ],
-        "respuestaCorrecta": 0,
-        "explicacion": "El amor auténtico implica un compromiso profundo y desinteresado, mientras que el amor superficial se basa en la utilidad o el placer y tiende a ser frágil."
+        "respuestaCorrecta": 2,
+        "explicacion": "Necesitamos de la sociedad para vivir, cubrir necesidades básicas y acceder a bienes morales."
     },
     {
         "id": 95,
-        "pregunta": "¿Qué papel juega la reciprocidad en el amor de amistad, según el texto?",
+        "pregunta": "¿Cuál es el fin último de todo ser humano según la unidad dos mencionada en el texto?",
         "respuestas": [
-            "La reciprocidad es innecesaria en una relación de amistad.",
-            "Es fundamental, ya que implica un intercambio mutuo de ideas, apoyo y comprensión.",
-            "Solo existe cuando ambas personas obtienen un beneficio material."
+            "Vivir aislado de los demás.",
+            "Alcanzar la autorrealización y la felicidad.",
+            "Acumular bienes materiales y riquezas."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "La reciprocidad es fundamental en el amor de amistad, ya que permite un intercambio mutuo de apoyo, ideas y comprensión entre las personas."
+        "explicacion": "El texto indica que el fin último es alcanzar la autorrealización y la felicidad."
     },
     {
         "id": 96,
-        "pregunta": "¿Qué desafíos enfrentan las relaciones amorosas contemporáneas según el texto?",
+        "pregunta": "¿Qué significa que la existencia humana aislada es inviable, según el texto?",
         "respuestas": [
-            "Las relaciones contemporáneas carecen de problemas.",
-            "Las relaciones amorosas modernas son más fáciles de mantener que antes.",
-            "La lógica del 'usar y tirar', el miedo al compromiso y las relaciones pasajeras son desafíos comunes hoy en día."
+            "Que los seres humanos pueden vivir solos sin problemas.",
+            "Que la sociedad existe porque es imposible que los humanos vivan aislados.",
+            "Que es mejor evitar el contacto con otros."
         ],
-        "respuestaCorrecta": 2,
-        "explicacion": "Las relaciones amorosas contemporáneas enfrentan el desafío de la lógica del 'usar y tirar', el miedo al compromiso y la tendencia a las relaciones superficiales y pasajeras."
+        "respuestaCorrecta": 1,
+        "explicacion": "El texto afirma que la existencia humana aislada es inviable, por eso existe la sociedad."
     },
     {
         "id": 97,
-        "pregunta": "¿Qué distingue una relación amorosa auténtica de una relación utilitaria?",
+        "pregunta": "Según el texto, ¿por qué la familia es considerada la primera 'sociedad' humana?",
         "respuestas": [
-            "La relación auténtica se basa en obtener el mayor placer posible.",
-            "La relación auténtica se basa en la entrega mutua y el deseo de bienestar del otro, mientras que la utilitaria se centra en la utilidad personal.",
-            "La relación utilitaria se basa en el beneficio mutuo sin compromiso."
+            "Porque es una institución creada por el Estado.",
+            "Porque es una comunidad natural donde se experimenta la sociabilidad y contribuye de manera única al bien de la sociedad.",
+            "Porque es el lugar donde se acumulan bienes materiales."
         ],
         "respuestaCorrecta": 1,
-        "explicacion": "Una relación amorosa auténtica se centra en la entrega y el bienestar del otro, mientras que la relación utilitaria se enfoca en obtener beneficios personales."
+        "explicacion": "La familia es la primera sociedad humana porque es una comunidad natural donde se vive la sociabilidad y se contribuye al bien de la sociedad."
     },
     {
         "id": 98,
-        "pregunta": "¿Qué ejemplo refleja una relación basada en el compromiso verdadero?",
+        "pregunta": "¿Qué establece el artículo 16 de la Declaración Universal de los Derechos Humanos respecto a la familia?",
         "respuestas": [
-            "Una amistad donde ambos se apoyan en los momentos difíciles y se comprometen a buscar el bien del otro.",
-            "Una relación que se rompe cuando hay dificultades.",
-            "Una amistad que solo se mantiene cuando hay diversión."
+            "Que la familia debe ser controlada por el Estado en todas sus decisiones.",
+            "Que la familia es un elemento prescindible en la sociedad moderna.",
+            "Que la familia es el elemento natural y fundamental de la sociedad y tiene derecho a la protección de la sociedad y del Estado."
         ],
-        "respuestaCorrecta": 0,
-        "explicacion": "Una relación basada en el compromiso verdadero implica apoyarse mutuamente en los momentos difíciles y buscar siempre el bien del otro, sin importar las circunstancias."
+        "respuestaCorrecta": 2,
+        "explicacion": "El artículo 16 establece que la familia es el elemento natural y fundamental de la sociedad y tiene derecho a protección."
     },
     {
         "id": 99,
-        "pregunta": "¿Por qué el sacrificio es esencial en una relación amorosa auténtica?",
+        "pregunta": "¿Cómo define el texto el 'bien común'?",
         "respuestas": [
-            "El sacrificio es esencial porque implica estar dispuesto a hacer esfuerzos por el bienestar del otro, incluso renunciando a algo propio.",
-            "El sacrificio no tiene lugar en una relación de amor.",
-            "El sacrificio solo es necesario si hay beneficios mutuos."
+            "La suma de los bienes particulares de cada individuo.",
+            "La acumulación de riquezas por parte de una minoría.",
+            "El conjunto de condiciones necesarias para que individuos, familias e instituciones logren su mayor desarrollo."
+        ],
+        "respuestaCorrecta": 2,
+        "explicacion": "El bien común es el conjunto de condiciones necesarias para el desarrollo pleno de todos los miembros de la sociedad."
+    },
+    {
+        "id": 100,
+        "pregunta": "Según el texto, ¿cuáles son los dos principios básicos que ayudan a conformar el bien común?",
+        "respuestas": [
+            "La solidaridad y la subsidiaridad.",
+            "La acumulación de bienes y el consumismo.",
+            "La competencia y el individualismo."
         ],
         "respuestaCorrecta": 0,
-        "explicacion": "El sacrificio es parte esencial del amor auténtico, ya que implica hacer esfuerzos y renuncias por el bienestar de la persona amada, lo que refuerza el compromiso y la entrega."
+        "explicacion": "Los principios de solidaridad y subsidiaridad ayudan a conformar el bien común."
+    },
+    {
+        "id": 101,
+        "pregunta": "¿Qué es la solidaridad según el texto?",
+        "respuestas": [
+            "La capacidad de actuar egoístamente sin considerar a los demás.",
+            "Una obligación recíproca de los miembros para apoyarse y ayudarse mutuamente, que surge de la empatía.",
+            "Un principio que promueve el individualismo y la competencia."
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "La solidaridad es la obligación recíproca de apoyarse mutuamente, surgida de la empatía."
+    },
+    {
+        "id": 102,
+        "pregunta": "¿Qué es el principio de subsidiaridad según el texto?",
+        "respuestas": [
+            "Un principio que promueve la competencia entre individuos.",
+            "Que las sociedades de orden superior deben ayudar y promover a las menores para que desarrollen sus funciones sin sustituirlas.",
+            "La idea de que las sociedades superiores deben sustituir a las inferiores en sus funciones."
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "La subsidiaridad implica que las sociedades superiores apoyen a las inferiores sin reemplazarlas."
+    },
+    {
+        "id": 103,
+        "pregunta": "¿Por qué es importante la política en la conformación del bien común, según el texto?",
+        "respuestas": [
+            "Porque solo se preocupa de intereses particulares.",
+            "Porque permite la formación de elementos que permiten a las personas desplegar sus potencialidades.",
+            "Porque impone restricciones a las libertades individuales."
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "La política es importante porque facilita condiciones para que las personas desarrollen sus potencialidades y contribuye al bien común."
+    },
+    {
+        "id": 104,
+        "pregunta": "Según el texto, ¿cuál es la razón de ser de las acciones políticas y las instituciones sociales?",
+        "respuestas": [
+            "Acumular poder y riquezas para una minoría.",
+            "Controlar y limitar a las personas para evitar conflictos.",
+            "Ayudar a las personas a lograr su plenitud y velar por su dignidad."
+        ],
+        "respuestaCorrecta": 2,
+        "explicacion": "Las acciones políticas y las instituciones sociales existen para ayudar a las personas a lograr su plenitud y proteger su dignidad."
+    },
+    {
+        "id": 105,
+        "pregunta": "¿Por qué la actividad política debe estar vinculada a la ética, según el texto?",
+        "respuestas": [
+            "Porque es una actividad completamente separada de los valores morales.",
+            "Porque la ética no tiene relación con la política.",
+            "Porque trata de lo justo y lo injusto y debe estar al servicio de la persona humana."
+        ],
+        "respuestaCorrecta": 2,
+        "explicacion": "La actividad política debe estar vinculada a la ética porque se ocupa de lo justo e injusto y debe velar por la dignidad humana."
+    },
+    {
+        "id": 106,
+        "pregunta": "Según el texto, ¿cómo contribuimos al bien común como seres sociales?",
+        "respuestas": [
+            "Desde nuestro trabajo y todas las acciones que realizamos, desarrollando nuestras habilidades en sociedad.",
+            "Evitando participar en la sociedad y actuando de manera individualista.",
+            "Acumulando riquezas personales sin considerar a los demás."
+        ],
+        "respuestaCorrecta": 0,
+        "explicacion": "Contribuimos al bien común a través de nuestro trabajo y acciones, desarrollándonos en sociedad."
+    },
+    {
+        "id": 107,
+        "pregunta": "¿Por qué llamó Aristóteles al ser humano un ser político?",
+        "respuestas": [
+            "Porque el ser humano alcanza su plenitud en la vida pública y se organiza para lograr fines comunes.",
+            "Porque todos los seres humanos deben dedicarse a la política profesionalmente.",
+            "Porque el ser humano prefiere vivir aislado de los demás."
+        ],
+        "respuestaCorrecta": 0,
+        "explicacion": "Aristóteles llamó al ser humano un ser político porque alcanza su plenitud en la vida pública y se organiza para fines comunes."
+    },
+    {
+        "id": 108,
+        "pregunta": "Según el texto, ¿qué papel juegan las virtudes como la prudencia y la justicia en la vida social?",
+        "respuestas": [
+            "Son innecesarias y pueden ser ignoradas.",
+            "Solo importan en la vida privada y personal.",
+            "Son necesarias para la vida social y contribuyen al bien común."
+        ],
+        "respuestaCorrecta": 2,
+        "explicacion": "Las virtudes como la prudencia y la justicia son necesarias para la vida social y el bien común."
+    },
+    {
+        "id": 109,
+        "pregunta": "¿Cuál de las siguientes actitudes va en contra del bien común, según los ejemplos del texto?",
+        "respuestas": [
+            "Practicar la solidaridad y ayudar a los demás.",
+            "Respetar las normas de convivencia social.",
+            "Conducir un automóvil bajo los efectos del alcohol."
+        ],
+        "respuestaCorrecta": 2,
+        "explicacion": "Conducir bajo los efectos del alcohol es una actitud que va en contra del bien común y puede dañar a personas inocentes."
+    },
+    {
+        "id": 110,
+        "pregunta": "Según el texto, ¿qué motiva a los bomberos a unirse voluntariamente y proteger vidas?",
+        "respuestas": [
+            "La búsqueda de beneficios económicos personales.",
+            "El principio de solidaridad que los lleva a servir al bien común.",
+            "La obligación impuesta por el Estado."
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "El principio de solidaridad motiva a los bomberos a unirse voluntariamente para proteger vidas y servir al bien común."
     }
-
 ]
 
 export default antropologiaDB;
