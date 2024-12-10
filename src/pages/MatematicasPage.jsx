@@ -41,7 +41,7 @@ function MatematicasPage() {
         <h5 className="card-header">Pregunta {pregunta.id}</h5>
         <div className="card-body">
           {/* Renderizar la pregunta como Markdown */}
-          <h5 className="card-title  text-warning">
+          <h5 className="card-title text-center text-warning">
             <ReactMarkdown
               children={pregunta.pregunta}
               remarkPlugins={[remarkMath]}
