@@ -14,7 +14,9 @@ import loaderAzureLN from "./db/loaderAzureLN.js";
 import AzureMineriaPage from "./pages/AzureMineriaPage.jsx";
 import loaderAzureMineria from "./db/loaderAzureMineria.js";
 import AzureIAGPage from "./pages/AzureIAGPage.jsx";
-import loaderAzureIAG from "./db/loaderAzureIAG.js";
+import loaderAzureIAG from "./db/loaderAzureCV.js";
+import MatematicasPage from "./pages/MatematicasPage.jsx";
+import loaderMatematicas from "./db/loaderMatematicas.js";
 
 const router = createBrowserRouter([
     {
@@ -26,6 +28,12 @@ const router = createBrowserRouter([
         path: "/antropologia/:nPregunta",
         element: <AntropologiaPage />,
         loader: loaderAntropologia,
+        errorElement: <FinalPage />,
+    },
+    {
+        path: "/matematicas/:nPregunta",
+        element: <MatematicasPage />,
+        loader: loaderMatematicas,
         errorElement: <FinalPage />,
     },
     {
@@ -63,6 +71,7 @@ const router = createBrowserRouter([
         loader: loaderAzureIAG,
         errorElement: <FinalPage />,
     }
+
 ]);
 
 export default router;

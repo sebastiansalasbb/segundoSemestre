@@ -1,0 +1,7 @@
+img {
+    width: 500px;
+    /* Ancho deseado */
+    height: auto;
+    /* Mantiene la proporción */
+    object-fit: cover;
+}

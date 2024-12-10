@@ -9,6 +9,8 @@ function DashboardPage() {
                     to="/antropologia/1" role="button">Antropología</Link>
                 <Link className="btn btn-info"
                     to="/menu-azure-ia" role="button">Microsoft Certified: Azure AI</Link>
+                <Link className="btn btn-info"
+                    to="/matematicas/1" role="button">Matematicas</Link>
             </div>
         </>
     )
