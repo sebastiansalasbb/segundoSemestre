@@ -1250,7 +1250,442 @@ $$n = \\frac{\\log(16384)}{\\log(2)} + 1 = \\frac{14}{1} + 1 = 15.$$
 
 Por lo tanto, el término \(20,480\) está en la posición **15**.
 `
-    }
+    },
+    {
+        id: 34,
+        pregunta: `
+Una empresa de desarrollo de software está diseñando una aplicación para optimizar el uso de servidores en la nube. Dos servicios principales se ejecutan en paralelo en cada servidor: Servicio A y Servicio B. Cada uno consume una cantidad de recursos en términos de CPU y memoria, que varía según el tiempo de ejecución.
+
+El sistema de ecuaciones que se plantea a continuación permite determinar los minutos "$x$" destinados al ejecutarse el Servicio A y los minutos "$y$" destinados al ejecutarse el Servicio B, en cada servidor:
+
+$$
+\\begin{aligned}
+2x + y &= 10, \\\\
+3x - 2y &= 8.
+\\end{aligned}
+$$
+
+¿Cuántos minutos debe ejecutarse el Servicio A en cada servidor?
+`,
+        respuestas: [
+            "4 minutos.", // Respuesta correcta
+            "3 minutos.",
+            "5 minutos.",
+            "6 minutos."
+        ],
+        respuestaCorrecta: 0,
+        explicacion: `
+Para resolver el sistema de ecuaciones:
+
+$$
+\\begin{aligned}
+2x + y &= 10, \\\\
+3x - 2y &= 8.
+\\end{aligned}
+$$
+
+### Paso 1: Despejamos $y$ de la primera ecuación
+$$y = 10 - 2x.$$
+
+### Paso 2: Sustituimos $y = 10 - 2x$ en la segunda ecuación
+$$3x - 2(10 - 2x) = 8.$$
+$$3x - 20 + 4x = 8.$$
+$$7x = 28.$$
+$$x = 4.$$
+
+### Paso 3: Sustituimos $x = 4$ en la primera ecuación para encontrar $y$
+$$2(4) + y = 10.$$
+$$8 + y = 10.$$
+$$y = 2.$$
+
+### Solución final
+El **Servicio A** debe ejecutarse durante **4 minutos** en cada servidor, y el **Servicio B** durante **2 minutos**.
+        `
+    },
+    {
+        id: 35,
+        pregunta: `
+El tiempo de carga (en minutos) de un camión eléctrico en función de la cantidad de estaciones de carga activas se puede modelar con la siguiente tabla:
+    
+    | Días (n) | Distancia (D(n)) |
+    |----------|-------------------|
+    |    1     |         5         |
+    |    3     |        15         |
+    |    5     |        25         |
+    |    7     |        35         |
+    
+Determine la forma algebraica que modela esta función:
+    `,
+        respuestas: [
+            "$$D(n) = 5n$$", // Respuesta correcta
+            "$$D(n) = 2n + 5$$",
+            "$$D(n) = 10n$$",
+            "$$D(n) = 5n + 10$$"
+        ],
+        respuestaCorrecta: 0,
+        explicacion: `
+    Para encontrar la forma algebraica que modela esta función, seguimos los pasos siguientes:
+    
+    1. **Analizamos la tabla**:
+       - Observamos que los valores de \( D(n) \) aumentan en 10 unidades por cada incremento de 2 en \( n \), lo que sugiere una relación lineal.
+    
+    2. **Determinamos la pendiente (\( m \))**:
+       - Usamos la fórmula para la pendiente: 
+         $$ m = \\frac{\\Delta D(n)}{\\Delta n} $$
+         $$ m = \\frac{15 - 5}{3 - 1} = \\frac{10}{2} = 5 $$
+    
+    3. **Encontramos la intersección (\( b \))**:
+       - Usamos un punto conocido, por ejemplo, \( (1, 5) \), y sustituimos en la fórmula general:
+         $$ D(n) = mn + b $$
+         $$ 5 = 5(1) + b $$
+         $$ b = 5 - 5 = 0 $$
+    
+    4. **Escribimos la ecuación**:
+       - La ecuación final que modela esta función es:
+         $$ D(n) = 5n $$
+    
+    Por lo tanto, la respuesta correcta es:
+    $$ D(n) = 5n $$
+    `
+    },
+    {
+        id: 36,
+        pregunta: `
+
+¿Es necesario que las matrices tengan la misma cantidad de filas y columnas para poder multiplicarse?
+`,
+        respuestas: [
+            "Sí, es necesario que tengan la misma cantidad de filas y columnas.",
+            "No, solo es necesario que el número de columnas de la primera matriz coincida con el número de filas de la segunda matriz.", // Respuesta correcta
+            "No, las matrices se pueden multiplicar siempre que tengan filas y columnas, independientemente de sus dimensiones."
+        ],
+        respuestaCorrecta: 1,
+        explicacion: `
+Para multiplicar dos matrices, no es necesario que tengan la misma cantidad de filas y columnas. 
+
+La condición para que la multiplicación sea posible es que **el número de columnas de la primera matriz coincida con el número de filas de la segunda matriz**. En este caso, $A$ tiene $2$ columnas y $B$ tiene $2$ filas, por lo que $A \\cdot B$ es posible.
+
+La matriz resultante tendrá tantas filas como la primera matriz ($A$) y tantas columnas como la segunda matriz ($B$), es decir, será de orden $3 \\times 4$.
+        `
+    },
+    {
+        id: 37,
+        pregunta: `
+Respecto a la matriz $A$ dada por:
+    
+$$
+A = \\begin{pmatrix}
+2 & 3 \\\\
+1 & 2
+\\end{pmatrix}
+$$
+    
+La matriz $A$ no es una matriz cuadrada. Indique si esta afirmación es verdadera o falsa.
+        `,
+        respuestas: [
+            "Verdadero.",
+            "Falso." // Respuesta correcta
+        ],
+        respuestaCorrecta: 1,
+        explicacion: `
+    Una matriz es cuadrada si tiene el mismo número de filas que de columnas. En este caso, la matriz $A$ es de orden $2 \\times 2$ (2 filas y 2 columnas), lo que significa que sí es una matriz cuadrada. Por lo tanto, la afirmación es **falsa**.
+        `
+    },
+    {
+        id: 38,
+        pregunta: `
+Dada la matriz $B$:
+    
+$$
+B = \\begin{pmatrix}
+5 & 7 & 3 \\\\
+1 & 4 & 8 \\\\
+2 & 6 & 9
+\\end{pmatrix}
+$$
+
+Determine el **orden** de la matriz $B$ y seleccione la respuesta correcta.
+        `,
+        respuestas: [
+            "$3 \\times 3$.", // Respuesta correcta
+            "$2 \\times 3$.",
+            "$3 \\times 2$.",
+            "$2 \\times 2$."
+        ],
+        respuestaCorrecta: 0,
+        explicacion: `
+    Para determinar el orden de la matriz, contamos el número de filas y columnas:
+    
+    1. La matriz $B$ tiene **3 filas**: 
+       $\\begin{pmatrix} 
+       5 & 7 & 3 \\\\ 
+       1 & 4 & 8 \\\\ 
+       2 & 6 & 9 
+       \\end{pmatrix}$.
+    
+    2. La matriz $B$ tiene **3 columnas**: Cada fila tiene 3 elementos.
+    
+    Por lo tanto, el orden de la matriz es **$3 \\times 3$**, es decir, 3 filas y 3 columnas.
+        `
+    },
+    {
+        id: 39,
+        pregunta: `
+Considere la matriz $C$:
+
+$$
+C = \\begin{pmatrix}
+2 & 4 & 6 & 8 \\\\
+3 & 9 & 12 & 15
+\\end{pmatrix}
+$$
+
+¿Cuál es el **orden** de la matriz $C$? Seleccione la respuesta correcta.
+`,
+        respuestas: [
+            "$2 \\times 4$.", // Respuesta correcta
+            "$4 \\times 2$.",
+            "$2 \\times 3$.",
+            "$4 \\times 4$."
+        ],
+        respuestaCorrecta: 0,
+        explicacion: `
+Para determinar el orden de la matriz, contamos el número de filas y columnas:
+
+1. La matriz $C$ tiene **2 filas**:
+   $\\begin{pmatrix} 
+   2 & 4 & 6 & 8 \\\\ 
+   3 & 9 & 12 & 15 
+   \\end{pmatrix}$.
+
+2. La matriz $C$ tiene **4 columnas**: Cada fila tiene 4 elementos.
+
+Por lo tanto, el orden de la matriz es **$2 \\times 4$**, es decir, 2 filas y 4 columnas.
+        `
+    },
+    {
+        id: 40,
+        pregunta: `
+Considere la matriz $D$ y una matriz propuesta como su inversa:
+
+$$
+D = \\begin{pmatrix}
+1 & 2 \\\\
+3 & 4
+\\end{pmatrix}, \\quad
+D^{-1} = \\begin{pmatrix}
+-2 & 1 \\\\
+1.5 & -0.5
+\\end{pmatrix}.
+$$
+
+¿Es correcto que $D^{-1}$ sea la inversa de $D$? Indique si esta afirmación es verdadera o falsa.
+        `,
+        respuestas: [
+            "Verdadero.", // Respuesta correcta
+            "Falso."
+        ],
+        respuestaCorrecta: 0,
+        explicacion: `
+    Para verificar si $D^{-1}$ es la inversa de $D$, calculamos el producto $D \\cdot D^{-1}$ y comprobamos si el resultado es la matriz identidad $I$.
+    
+    1. Calculamos $D \\cdot D^{-1}$:
+    
+    $$
+    D \\cdot D^{-1} = \\begin{pmatrix}
+    1 & 2 \\\\
+    3 & 4
+    \\end{pmatrix} \\cdot \\begin{pmatrix}
+    -2 & 1 \\\\
+    1.5 & -0.5
+    \\end{pmatrix}.
+    $$
+    
+    Multiplicamos fila por columna:
+    - Elemento $(1, 1)$: $(1)(-2) + (2)(1.5) = -2 + 3 = 1$.
+    - Elemento $(1, 2)$: $(1)(1) + (2)(-0.5) = 1 - 1 = 0$.
+    - Elemento $(2, 1)$: $(3)(-2) + (4)(1.5) = -6 + 6 = 0$.
+    - Elemento $(2, 2)$: $(3)(1) + (4)(-0.5) = 3 - 2 = 1$.
+    
+    El producto es:
+    $$
+    D \\cdot D^{-1} = \\begin{pmatrix}
+    1 & 0 \\\\
+    0 & 1
+    \\end{pmatrix}.
+    $$
+    
+    2. El resultado es la matriz identidad $I$, por lo que **$D^{-1}$ es efectivamente la inversa de $D$**. La afirmación es **verdadera**.
+        `
+    },
+    {
+        id: 41,
+        pregunta: `
+Considere la matriz $E$ y una matriz propuesta como su inversa:
+
+$$
+E = \\begin{pmatrix}
+2 & 3 \\\\
+1 & 4
+\\end{pmatrix}, \\quad
+E^{-1} = \\begin{pmatrix}
+4 & -3 \\\\
+-1 & 2
+\\end{pmatrix}.
+$$
+
+¿Es correcto que $E^{-1}$ sea la inversa de $E$? Indique si esta afirmación es verdadera o falsa.
+        `,
+        respuestas: [
+            "Verdadero.",
+            "Falso." // Respuesta correcta
+        ],
+        respuestaCorrecta: 1,
+        explicacion: `
+    Para verificar si $E^{-1}$ es la inversa de $E$, calculamos el producto $E \\cdot E^{-1}$ y comprobamos si el resultado es la matriz identidad $I$.
+    
+    1. Calculamos $E \\cdot E^{-1}$:
+    
+    $$
+    E \\cdot E^{-1} = \\begin{pmatrix}
+    2 & 3 \\\\
+    1 & 4
+    \\end{pmatrix} \\cdot \\begin{pmatrix}
+    4 & -3 \\\\
+    -1 & 2
+    \\end{pmatrix}.
+    $$
+    
+    Multiplicamos fila por columna:
+    - Elemento $(1, 1)$: $(2)(4) + (3)(-1) = 8 - 3 = 5$.
+    - Elemento $(1, 2)$: $(2)(-3) + (3)(2) = -6 + 6 = 0$.
+    - Elemento $(2, 1)$: $(1)(4) + (4)(-1) = 4 - 4 = 0$.
+    - Elemento $(2, 2)$: $(1)(-3) + (4)(2) = -3 + 8 = 5$.
+    
+    El producto es:
+    $$
+    E \\cdot E^{-1} = \\begin{pmatrix}
+    5 & 0 \\\\
+    0 & 5
+    \\end{pmatrix}.
+    $$
+    
+    2. El resultado **no es la matriz identidad**. Por lo tanto, la matriz propuesta no es la inversa de $E$ y la afirmación es **falsa**.
+        `
+    },
+
+    {
+        id: 42,
+        pregunta: `
+Considere la matriz $F$ y su transpuesta propuesta:
+
+$$
+F = \\begin{pmatrix}
+1 & 2 & 3 \\\\
+4 & 5 & 6
+\\end{pmatrix}, \\quad
+F^T = \\begin{pmatrix}
+1 & 4 \\\\
+2 & 5 \\\\
+3 & 6
+\\end{pmatrix}.
+$$
+
+¿Es correcto que $F^T$ sea la transpuesta de $F$? Indique si esta afirmación es verdadera o falsa.
+`,
+        respuestas: [
+            "Verdadero.", // Respuesta correcta
+            "Falso."
+        ],
+        respuestaCorrecta: 0,
+        explicacion: `
+La transpuesta de una matriz $F$ se obtiene intercambiando sus filas por columnas. Dada la matriz:
+
+$$
+F = \\begin{pmatrix}
+1 & 2 & 3 \\\\
+4 & 5 & 6
+\\end{pmatrix},
+$$
+
+su transpuesta es:
+$$
+F^T = \\begin{pmatrix}
+1 & 4 \\\\
+2 & 5 \\\\
+3 & 6
+\\end{pmatrix}.
+$$
+
+    Al comparar, la matriz propuesta coincide con la transpuesta calculada. Por lo tanto, la afirmación es **verdadera**.
+        `
+    },
+    {
+        id: 43,
+        pregunta: `
+Considere la matriz $G$ y una matriz propuesta como su transpuesta:
+
+$$
+G = \\begin{pmatrix}
+7 & 8 \\\\
+9 & 10 \\\\
+11 & 12
+\\end{pmatrix}, \\quad
+G^T = \\begin{pmatrix}
+7 & 9 & 11 \\\\
+8 & 10 & 12
+\\end{pmatrix}.
+$$
+
+¿Es correcto que $G^T$ sea la transpuesta de $G$? Indique si esta afirmación es verdadera o falsa.
+        `,
+        respuestas: [
+            "Verdadero.",
+            "Falso." // Respuesta correcta
+        ],
+        respuestaCorrecta: 0,
+        explicacion: `
+    La transpuesta de una matriz $G$ se obtiene intercambiando sus filas por columnas. Dada la matriz:
+    
+    $$
+    G = \\begin{pmatrix}
+    7 & 8 \\\\
+    9 & 10 \\\\
+    11 & 12
+    \\end{pmatrix},
+    $$
+    
+    su transpuesta es:
+    $$
+    G^T = \\begin{pmatrix}
+    7 & 9 & 11 \\\\
+    8 & 10 & 12
+    \\end{pmatrix}.
+    $$
+    
+    Al comparar, la matriz propuesta coincide con la transpuesta calculada. Por lo tanto, la afirmación es **verdadera**.
+        `
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
