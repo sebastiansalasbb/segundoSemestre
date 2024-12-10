@@ -1666,6 +1666,60 @@ $$
     Al comparar, la matriz propuesta coincide con la transpuesta calculada. Por lo tanto, la afirmación es **verdadera**.
         `
     },
+    {
+        id: 44,
+        pregunta: `
+La cantidad de visitantes a un parque natural (en miles) en función del tiempo transcurrido desde su apertura (en años) está modelada por la función:
+
+$$V(t) = 3t^2 - 12t + 20,$$
+
+donde $t$ corresponde al tiempo transcurrido (en años) desde la apertura del parque. 
+
+1. Determine la cantidad de visitantes al cabo de 4 años.  
+2. ¿En qué año el parque tuvo exactamente 8 mil visitantes?
+        `,
+        respuestas: [
+            "1. 20 mil visitantes; 2. Al año 2 y al año 5.", // Respuesta correcta
+            "1. 16 mil visitantes; 2. Al año 1 y al año 4.",
+            "1. 24 mil visitantes; 2. Al año 3 y al año 6.",
+            "1. 18 mil visitantes; 2. Al año 1 y al año 5."
+        ],
+        respuestaCorrecta: 0,
+        explicacion: `
+    Para resolver los puntos:
+    
+    ### 1. Cantidad de visitantes al cabo de 4 años:
+    Evaluamos $V(t)$ en $t = 4$:
+    $$V(4) = 3(4)^2 - 12(4) + 20.$$
+    $$V(4) = 3(16) - 48 + 20.$$
+    $$V(4) = 48 - 48 + 20 = 20.$$
+    
+    Por lo tanto, al cabo de 4 años hubo **20 mil visitantes**.
+    
+    ---
+    
+    ### 2. ¿Cuándo el parque tuvo exactamente 8 mil visitantes?
+    Buscamos los valores de $t$ tales que $V(t) = 8$:
+    $$3t^2 - 12t + 20 = 8.$$
+    Simplificamos:
+    $$3t^2 - 12t + 12 = 0.$$
+    Dividimos entre 3:
+    $$t^2 - 4t + 4 = 0.$$
+    Factorizamos:
+    $$(t - 2)(t - 2) = 0.$$
+    $$t = 2.$$
+    
+    Por lo tanto, el parque tuvo **8 mil visitantes al cabo de 2 años**.
+    
+    ---
+    
+    Conclusión:
+    - **1. Al cabo de 4 años:** 20 mil visitantes.
+    - **2. Exactamente 8 mil visitantes:** Al año 2.
+        `
+    }
+
+
 
 
 
