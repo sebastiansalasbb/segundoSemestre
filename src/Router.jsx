@@ -19,6 +19,7 @@ import MatematicasPage from "./pages/MatematicasPage.jsx";
 import loaderMatematicas from "./db/loaderMatematicas.js";
 import loaderalfabeto from "./db/ingles2/alfabeto/loaderAlfabeto.js"
 import AlfabetoPage from "./pages/Ingles_II/AlfabetoPage.jsx";
+import AlfabetoDashboradPage from "./pages/Ingles_II/AlfabetoDashboradPage.jsx";
 
 const router = createBrowserRouter([
     {
@@ -72,6 +73,10 @@ const router = createBrowserRouter([
         element: <AzureIAGPage />,
         loader: loaderAzureIAG,
         errorElement: <FinalPage />,
+    },
+    {
+        path: "/inglesII",
+        element: <AlfabetoDashboradPage />,
     },
     {
         path: "/inglesII/alfabeto/:nPregunta",
