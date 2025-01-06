@@ -17,6 +17,8 @@ import AzureIAGPage from "./pages/AzureIAGPage.jsx";
 import loaderAzureIAG from "./db/loaderAzureCV.js";
 import MatematicasPage from "./pages/MatematicasPage.jsx";
 import loaderMatematicas from "./db/loaderMatematicas.js";
+import loaderalfabeto from "./db/ingles2/alfabeto/loaderAlfabeto.js"
+import AlfabetoPage from "./pages/Ingles_II/AlfabetoPage.jsx";
 
 const router = createBrowserRouter([
     {
@@ -69,6 +71,12 @@ const router = createBrowserRouter([
         path: "/menu-azure-ia/unidad-5/:nPregunta",
         element: <AzureIAGPage />,
         loader: loaderAzureIAG,
+        errorElement: <FinalPage />,
+    },
+    {
+        path: "/inglesII/alfabeto/:nPregunta",
+        element: <AlfabetoPage />,
+        loader: loaderalfabeto,
         errorElement: <FinalPage />,
     }
 
