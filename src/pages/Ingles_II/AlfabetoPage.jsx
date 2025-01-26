@@ -26,6 +26,7 @@ function AlfabetoPage() {
     };
 
     const handleNextButton = () => {
+        setRespuestaSeleccionada(null)
         bsOffcanvas.current.hide();
         setTimeout(() => {
             navigate(`/inglesII/alfabeto/${siguientePreguntaId}`);
@@ -54,7 +55,7 @@ function AlfabetoPage() {
                                     onClick={() => handleRespuestaClick(index)}
 
                                 >
-                                    Opción {index + 1}
+                                    Opción {index + 1} <i className="bi bi-volume-up"></i>
                                 </button>
                             </li>
                         ))}

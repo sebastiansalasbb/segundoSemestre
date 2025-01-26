@@ -6,7 +6,7 @@ function DashboardPage() {
             <h1 className="fs-1 ">Tests</h1>
             <div className="text-uppercase d-flex flex-column gap-3">
                 <Link className="btn btn-info"
-                    to="/inglesII" role="button">Ingles II</Link>
+                    to="/presente-perfecto/1" role="button">Ingles II</Link>
 
             </div>
         </>

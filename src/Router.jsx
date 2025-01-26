@@ -20,6 +20,8 @@ import loaderMatematicas from "./db/loaderMatematicas.js";
 import loaderalfabeto from "./db/ingles2/alfabeto/loaderAlfabeto.js"
 import AlfabetoPage from "./pages/Ingles_II/AlfabetoPage.jsx";
 import AlfabetoDashboradPage from "./pages/Ingles_II/AlfabetoDashboradPage.jsx";
+import loaderPresentePerfecto from "./db/loaderPresentePerfecto.js";
+import PresentePerfectoPage from "./pages/PresentePerfectoPage.jsx";
 
 const router = createBrowserRouter([
     {
@@ -31,6 +33,12 @@ const router = createBrowserRouter([
         path: "/antropologia/:nPregunta",
         element: <AntropologiaPage />,
         loader: loaderAntropologia,
+        errorElement: <FinalPage />,
+    },
+    {
+        path: "/presente-perfecto/:nPregunta",
+        element: <PresentePerfectoPage />,
+        loader: loaderPresentePerfecto,
         errorElement: <FinalPage />,
     },
     {
