@@ -22,6 +22,8 @@ import AlfabetoPage from "./pages/Ingles_II/AlfabetoPage.jsx";
 import AlfabetoDashboradPage from "./pages/Ingles_II/AlfabetoDashboradPage.jsx";
 import loaderPresentePerfecto from "./db/loaderPresentePerfecto.js";
 import PresentePerfectoPage from "./pages/PresentePerfectoPage.jsx";
+import Palabras1000Page from "./pages/Palabras1000Page.jsx";
+import loaderPalabras1000 from "./db/loaderPalabras1000.js";
 
 const router = createBrowserRouter([
     {
@@ -39,6 +41,12 @@ const router = createBrowserRouter([
         path: "/presente-perfecto/:nPregunta",
         element: <PresentePerfectoPage />,
         loader: loaderPresentePerfecto,
+        errorElement: <FinalPage />,
+    },
+    {
+        path: "/palabras1000/:nPregunta",
+        element: <Palabras1000Page />,
+        loader: loaderPalabras1000,
         errorElement: <FinalPage />,
     },
     {

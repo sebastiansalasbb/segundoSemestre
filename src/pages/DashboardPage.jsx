@@ -8,6 +8,9 @@ function DashboardPage() {
                 <Link className="btn btn-info"
                     to="/presente-perfecto/1" role="button">Ingles II</Link>
 
+                <Link className="btn btn-info"
+                    to="/palabras1000/1" role="button">Ingles 1000</Link>
+
             </div>
         </>
     )
